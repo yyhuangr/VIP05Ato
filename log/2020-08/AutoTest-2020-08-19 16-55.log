@@ -1,0 +1,5 @@
+16:55:57  [INFO ] : auth接口的返回信息是auth={"status":200,"msg":"success","token":"857339f457c04d8fb97d337473b06eb7"}
+16:55:58  [INFO ] : token的值是=857339f457c04d8fb97d337473b06eb7
+16:55:58  [INFO ] : register接口的返回信息是={"status":401,"msg":"用户已被注册"}
+16:55:58  [INFO ] : login接口的返回信息是={"status":200,"msg":"恭喜您，登录成功","userid":"1497"}
+16:55:58  [INFO ] : getUserInfo接口的返回信息是={"status":402,"msg":"参数错误！"}

@@ -1,0 +1,54 @@
+22:00:43  [DEBUG] : CookieSpec selected: default
+22:00:43  [DEBUG] : Auth cache not set in the context
+22:00:43  [DEBUG] : Connection request: [route: {s}->https://ke.qq.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:00:43  [DEBUG] : Connection leased: [id: 0][route: {s}->https://ke.qq.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:00:43  [DEBUG] : Opening connection {s}->https://ke.qq.com:443
+22:00:43  [DEBUG] : Connecting to ke.qq.com/101.89.15.159:443
+22:00:43  [DEBUG] : Connecting socket to ke.qq.com/101.89.15.159:443 with timeout 0
+22:00:43  [DEBUG] : Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+22:00:43  [DEBUG] : Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+22:00:43  [DEBUG] : Starting handshake
+22:00:43  [DEBUG] : Secure session established
+22:00:43  [DEBUG] :  negotiated protocol: TLSv1.2
+22:00:43  [DEBUG] :  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+22:00:43  [DEBUG] :  peer principal: CN=*.ke.qq.com, OU=R&D, O=Tencent Technology (Shenzhen) Company Limited, L=Shenzhen, ST=Guangdong, C=CN
+22:00:43  [DEBUG] :  peer alternative names: [*.ke.qq.com, ke.qq.com]
+22:00:43  [DEBUG] :  issuer principal: CN=Secure Site CA G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+22:00:43  [DEBUG] : Connection established 192.168.2.194:53436<->101.89.15.159:443
+22:00:43  [DEBUG] : Executing request GET /cgi-bin/comment_new/course_comment_list?cid=315793&count=10&page=0&filter_rating=0&bkn=1098103277&r=0.45023804110424415 HTTP/1.1
+22:00:43  [DEBUG] : Target auth state: UNCHALLENGED
+22:00:43  [DEBUG] : Proxy auth state: UNCHALLENGED
+22:00:43  [DEBUG] : http-outgoing-0 >> GET /cgi-bin/comment_new/course_comment_list?cid=315793&count=10&page=0&filter_rating=0&bkn=1098103277&r=0.45023804110424415 HTTP/1.1
+22:00:43  [DEBUG] : http-outgoing-0 >> Host: ke.qq.com
+22:00:43  [DEBUG] : http-outgoing-0 >> Connection: Keep-Alive
+22:00:43  [DEBUG] : http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+22:00:43  [DEBUG] : http-outgoing-0 >> Accept-Encoding: gzip,deflate
+22:00:43  [DEBUG] : http-outgoing-0 >> "GET /cgi-bin/comment_new/course_comment_list?cid=315793&count=10&page=0&filter_rating=0&bkn=1098103277&r=0.45023804110424415 HTTP/1.1[\r][\n]"
+22:00:43  [DEBUG] : http-outgoing-0 >> "Host: ke.qq.com[\r][\n]"
+22:00:43  [DEBUG] : http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+22:00:43  [DEBUG] : http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+22:00:43  [DEBUG] : http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:00:43  [DEBUG] : http-outgoing-0 >> "[\r][\n]"
+22:00:43  [DEBUG] : http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+22:00:43  [DEBUG] : http-outgoing-0 << "Date: Mon, 24 Feb 2020 14:00:42 GMT[\r][\n]"
+22:00:43  [DEBUG] : http-outgoing-0 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+22:00:43  [DEBUG] : http-outgoing-0 << "Content-Length: 47[\r][\n]"
+22:00:43  [DEBUG] : http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+22:00:43  [DEBUG] : http-outgoing-0 << "Server: nginx[\r][\n]"
+22:00:43  [DEBUG] : http-outgoing-0 << "X-Server: sng-qcloud[\r][\n]"
+22:00:43  [DEBUG] : http-outgoing-0 << "X-Request-Id: 87b735da-b59e-48eb-882d-6f15c4d104b5[\r][\n]"
+22:00:43  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+22:00:43  [DEBUG] : http-outgoing-0 << "{"retcode":100101,"type":1,"msg":"refer[0xe9][0x94][0x99][0xe8][0xaf][0xaf]"}"
+22:00:43  [DEBUG] : http-outgoing-0 << HTTP/1.1 200 OK
+22:00:43  [DEBUG] : http-outgoing-0 << Date: Mon, 24 Feb 2020 14:00:42 GMT
+22:00:43  [DEBUG] : http-outgoing-0 << Content-Type: application/json;charset=utf-8
+22:00:43  [DEBUG] : http-outgoing-0 << Content-Length: 47
+22:00:43  [DEBUG] : http-outgoing-0 << Connection: keep-alive
+22:00:43  [DEBUG] : http-outgoing-0 << Server: nginx
+22:00:43  [DEBUG] : http-outgoing-0 << X-Server: sng-qcloud
+22:00:43  [DEBUG] : http-outgoing-0 << X-Request-Id: 87b735da-b59e-48eb-882d-6f15c4d104b5
+22:00:43  [DEBUG] : Connection can be kept alive indefinitely
+22:00:43  [DEBUG] : Connection [id: 0][route: {s}->https://ke.qq.com:443] can be kept alive indefinitely
+22:00:43  [DEBUG] : http-outgoing-0: set socket timeout to 0
+22:00:43  [DEBUG] : Connection released: [id: 0][route: {s}->https://ke.qq.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:00:43  [INFO ] : {"retcode":100101,"type":1,"msg":"refer错误"}

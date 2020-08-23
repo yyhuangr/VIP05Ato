@@ -1,0 +1,4 @@
+14:43:12  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"1bb0925c792c4ba5a7d1329592c2f348"}
+14:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1494"}
+14:43:46  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"3b5b0bfe031049cda1043fb82b75c47c"}
+14:43:46  [INFO ] : 在keyword中调试输出返回的结果是{"status":406,"msg":"用户已经在别处登录"}

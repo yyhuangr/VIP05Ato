@@ -1,0 +1,76 @@
+20:53:37  [DEBUG] : CookieSpec selected: default
+20:53:37  [DEBUG] : Auth cache not set in the context
+20:53:37  [DEBUG] : Connection request: [route: {}->http://www.testingedu.com.cn:8000][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+20:53:37  [DEBUG] : Connection leased: [id: 0][route: {}->http://www.testingedu.com.cn:8000][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+20:53:37  [DEBUG] : Opening connection {}->http://www.testingedu.com.cn:8000
+20:53:37  [DEBUG] : Connecting to www.testingedu.com.cn/112.74.191.10:8000
+20:53:37  [DEBUG] : Connection established 192.168.2.194:50142<->112.74.191.10:8000
+20:53:37  [DEBUG] : Executing request POST /index.php?m=Home&c=User&a=do_login&t=0.7799940710114899 HTTP/1.1
+20:53:37  [DEBUG] : Target auth state: UNCHALLENGED
+20:53:37  [DEBUG] : Proxy auth state: UNCHALLENGED
+20:53:37  [DEBUG] : http-outgoing-0 >> POST /index.php?m=Home&c=User&a=do_login&t=0.7799940710114899 HTTP/1.1
+20:53:37  [DEBUG] : http-outgoing-0 >> Content-Length: 50
+20:53:37  [DEBUG] : http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+20:53:37  [DEBUG] : http-outgoing-0 >> Content-Encoding: utf-8
+20:53:37  [DEBUG] : http-outgoing-0 >> Host: www.testingedu.com.cn:8000
+20:53:37  [DEBUG] : http-outgoing-0 >> Connection: Keep-Alive
+20:53:37  [DEBUG] : http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+20:53:37  [DEBUG] : http-outgoing-0 >> Accept-Encoding: gzip,deflate
+20:53:37  [DEBUG] : http-outgoing-0 >> "POST /index.php?m=Home&c=User&a=do_login&t=0.7799940710114899 HTTP/1.1[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 >> "Content-Length: 50[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 >> "Content-Encoding: utf-8[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 >> "Host: www.testingedu.com.cn:8000[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 >> "[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 >> "username=13800138006&password=123456&verify_code=1"
+20:53:37  [DEBUG] : http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "Date: Mon, 24 Feb 2020 12:53:37 GMT[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "Server: Apache/2.4.6 (CentOS) PHP/5.6.30 mod_apreq2-20090110/2.8.0 mod_perl/2.0.10 Perl/v5.16.3[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "X-Powered-By: PHP/5.6.30[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "Cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "Set-Cookie: is_mobile=0; expires=Mon, 24-Feb-2020 13:53:37 GMT; Max-Age=3600; path=/[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "Set-Cookie: PHPSESSID=b7arh0i649tr94bikv0n61t4e6; path=/[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "Set-Cookie: user_id=8; path=/[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "Set-Cookie: is_distribut=0; path=/[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "Set-Cookie: uname=summer; path=/[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "Set-Cookie: cn=0; expires=Mon, 24-Feb-2020 11:53:37 GMT; Max-Age=-3600; path=/[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "Content-Length: 894[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "Keep-Alive: timeout=5, max=100[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "Connection: Keep-Alive[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+20:53:37  [DEBUG] : http-outgoing-0 << "{"status":1,"msg":"\u767b\u9646\u6210\u529f","result":{"user_id":8,"email":"","password":"519475228fe35ad067744465c42a19b2","paypwd":"519475228fe35ad067744465c42a19b2","sex":2,"birthday":-28800,"user_money":"0.00","frozen_money":"0.00","distribut_money":"0.00","underling_number":0,"pay_points":500,"address_id":0,"reg_time":1523857661,"last_login":0,"last_ip":"","qq":"","mobile":"13800138006","mobile_validated":1,"oauth":"","openid":null,"unionid":null,"head_pic":"\/public\/upload\/user\/8\/head_pic\/\/ca1e9e813882db865453c9f42e4bb967.jpg","province":0,"city":0,"district":0,"email_validated":0,"nickname":"summer","level":2,"discount":"1.00","total_amount":"55.00","is_lock":0,"is_distribut":0,"first_leader":3,"second_leader":0,"third_leader":0,"token":"","message_mask":63,"push_id":"190e35f7e07c8658ec6","distribut_level":0,"is_vip":0,"level_name":"\u5014\u5f3a\u9752\u94dc"},"url":""}"
+20:53:37  [DEBUG] : http-outgoing-0 << HTTP/1.1 200 OK
+20:53:37  [DEBUG] : http-outgoing-0 << Date: Mon, 24 Feb 2020 12:53:37 GMT
+20:53:37  [DEBUG] : http-outgoing-0 << Server: Apache/2.4.6 (CentOS) PHP/5.6.30 mod_apreq2-20090110/2.8.0 mod_perl/2.0.10 Perl/v5.16.3
+20:53:37  [DEBUG] : http-outgoing-0 << X-Powered-By: PHP/5.6.30
+20:53:37  [DEBUG] : http-outgoing-0 << Cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+20:53:37  [DEBUG] : http-outgoing-0 << Set-Cookie: is_mobile=0; expires=Mon, 24-Feb-2020 13:53:37 GMT; Max-Age=3600; path=/
+20:53:37  [DEBUG] : http-outgoing-0 << Set-Cookie: PHPSESSID=b7arh0i649tr94bikv0n61t4e6; path=/
+20:53:37  [DEBUG] : http-outgoing-0 << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+20:53:37  [DEBUG] : http-outgoing-0 << Pragma: no-cache
+20:53:37  [DEBUG] : http-outgoing-0 << Set-Cookie: user_id=8; path=/
+20:53:37  [DEBUG] : http-outgoing-0 << Set-Cookie: is_distribut=0; path=/
+20:53:37  [DEBUG] : http-outgoing-0 << Set-Cookie: uname=summer; path=/
+20:53:37  [DEBUG] : http-outgoing-0 << Set-Cookie: cn=0; expires=Mon, 24-Feb-2020 11:53:37 GMT; Max-Age=-3600; path=/
+20:53:37  [DEBUG] : http-outgoing-0 << Content-Length: 894
+20:53:37  [DEBUG] : http-outgoing-0 << Keep-Alive: timeout=5, max=100
+20:53:37  [DEBUG] : http-outgoing-0 << Connection: Keep-Alive
+20:53:37  [DEBUG] : http-outgoing-0 << Content-Type: text/html; charset=UTF-8
+20:53:37  [DEBUG] : Connection can be kept alive for 5000 MILLISECONDS
+20:53:37  [DEBUG] : Cookie accepted [is_mobile="0", version:0, domain:www.testingedu.com.cn, path:/, expiry:Mon Feb 24 21:53:37 CST 2020]
+20:53:37  [DEBUG] : Cookie accepted [PHPSESSID="b7arh0i649tr94bikv0n61t4e6", version:0, domain:www.testingedu.com.cn, path:/, expiry:null]
+20:53:37  [DEBUG] : Cookie accepted [user_id="8", version:0, domain:www.testingedu.com.cn, path:/, expiry:null]
+20:53:37  [DEBUG] : Cookie accepted [is_distribut="0", version:0, domain:www.testingedu.com.cn, path:/, expiry:null]
+20:53:37  [DEBUG] : Cookie accepted [uname="summer", version:0, domain:www.testingedu.com.cn, path:/, expiry:null]
+20:53:37  [DEBUG] : Cookie accepted [cn="0", version:0, domain:www.testingedu.com.cn, path:/, expiry:Mon Feb 24 19:53:37 CST 2020]
+20:53:37  [DEBUG] : Connection [id: 0][route: {}->http://www.testingedu.com.cn:8000] can be kept alive for 5.0 seconds
+20:53:37  [DEBUG] : http-outgoing-0: set socket timeout to 0
+20:53:37  [DEBUG] : Connection released: [id: 0][route: {}->http://www.testingedu.com.cn:8000][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+20:53:37  [INFO ] : {"status":1,"msg":"\u767b\u9646\u6210\u529f","result":{"user_id":8,"email":"","password":"519475228fe35ad067744465c42a19b2","paypwd":"519475228fe35ad067744465c42a19b2","sex":2,"birthday":-28800,"user_money":"0.00","frozen_money":"0.00","distribut_money":"0.00","underling_number":0,"pay_points":500,"address_id":0,"reg_time":1523857661,"last_login":0,"last_ip":"","qq":"","mobile":"13800138006","mobile_validated":1,"oauth":"","openid":null,"unionid":null,"head_pic":"\/public\/upload\/user\/8\/head_pic\/\/ca1e9e813882db865453c9f42e4bb967.jpg","province":0,"city":0,"district":0,"email_validated":0,"nickname":"summer","level":2,"discount":"1.00","total_amount":"55.00","is_lock":0,"is_distribut":0,"first_leader":3,"second_leader":0,"third_leader":0,"token":"","message_mask":63,"push_id":"190e35f7e07c8658ec6","distribut_level":0,"is_vip":0,"level_name":"\u5014\u5f3a\u9752\u94dc"},"url":""}
+20:53:37  [INFO ] : {"status":1,"msg":"登陆成功","result":{"user_id":8,"email":"","password":"519475228fe35ad067744465c42a19b2","paypwd":"519475228fe35ad067744465c42a19b2","sex":2,"birthday":-28800,"user_money":"0.00","frozen_money":"0.00","distribut_money":"0.00","underling_number":0,"pay_points":500,"address_id":0,"reg_time":1523857661,"last_login":0,"last_ip":"","qq":"","mobile":"13800138006","mobile_validated":1,"oauth":"","openid":null,"unionid":null,"head_pic":"\/public\/upload\/user\/8\/head_pic\/\/ca1e9e813882db865453c9f42e4bb967.jpg","province":0,"city":0,"district":0,"email_validated":0,"nickname":"summer","level":2,"discount":"1.00","total_amount":"55.00","is_lock":0,"is_distribut":0,"first_leader":3,"second_leader":0,"third_leader":0,"token":"","message_mask":63,"push_id":"190e35f7e07c8658ec6","distribut_level":0,"is_vip":0,"level_name":"倔强青铜"},"url":""}

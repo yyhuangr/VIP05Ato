@@ -1,0 +1,130 @@
+03:56:01  [DEBUG] : CookieSpec selected: default
+03:56:01  [DEBUG] : Auth cache not set in the context
+03:56:01  [DEBUG] : Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+03:56:01  [DEBUG] : Connection leased: [id: 0][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+03:56:01  [DEBUG] : Opening connection {}->http://localhost:8080
+03:56:01  [DEBUG] : Connecting to localhost/127.0.0.1:8080
+03:56:01  [DEBUG] : Connection established 127.0.0.1:54705<->127.0.0.1:8080
+03:56:01  [DEBUG] : http-outgoing-0: set socket timeout to 15000
+03:56:01  [DEBUG] : Executing request POST /Vip04Login/Login HTTP/1.1
+03:56:01  [DEBUG] : Target auth state: UNCHALLENGED
+03:56:01  [DEBUG] : Proxy auth state: UNCHALLENGED
+03:56:01  [DEBUG] : http-outgoing-0 >> POST /Vip04Login/Login HTTP/1.1
+03:56:01  [DEBUG] : http-outgoing-0 >> Content-Length: 19
+03:56:01  [DEBUG] : http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+03:56:01  [DEBUG] : http-outgoing-0 >> Content-Encoding: UTF-8
+03:56:01  [DEBUG] : http-outgoing-0 >> Host: localhost:8080
+03:56:01  [DEBUG] : http-outgoing-0 >> Connection: Keep-Alive
+03:56:01  [DEBUG] : http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+03:56:01  [DEBUG] : http-outgoing-0 >> Accept-Encoding: gzip,deflate
+03:56:01  [DEBUG] : http-outgoing-0 >> "POST /Vip04Login/Login HTTP/1.1[\r][\n]"
+03:56:01  [DEBUG] : http-outgoing-0 >> "Content-Length: 19[\r][\n]"
+03:56:01  [DEBUG] : http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+03:56:01  [DEBUG] : http-outgoing-0 >> "Content-Encoding: UTF-8[\r][\n]"
+03:56:01  [DEBUG] : http-outgoing-0 >> "Host: localhost:8080[\r][\n]"
+03:56:01  [DEBUG] : http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+03:56:01  [DEBUG] : http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+03:56:01  [DEBUG] : http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+03:56:01  [DEBUG] : http-outgoing-0 >> "[\r][\n]"
+03:56:01  [DEBUG] : http-outgoing-0 >> "user=Roy&pwd=123456"
+03:56:01  [DEBUG] : http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+03:56:01  [DEBUG] : http-outgoing-0 << "Set-Cookie: JSESSIONID=138EF64B9A7F8E3AF31729D02F724A4D; Path=/Vip04Login; HttpOnly[\r][\n]"
+03:56:01  [DEBUG] : http-outgoing-0 << "Set-Cookie: JSESSIONID=138EF64B9A7F8E3AF31729D02F724A4D; Max-Age=300; Expires=Thu, 20-Feb-2020 20:01:01 GMT[\r][\n]"
+03:56:01  [DEBUG] : http-outgoing-0 << "Content-Type: text/html;charset=utf-8[\r][\n]"
+03:56:01  [DEBUG] : http-outgoing-0 << "Content-Length: 44[\r][\n]"
+03:56:01  [DEBUG] : http-outgoing-0 << "Date: Thu, 20 Feb 2020 19:56:01 GMT[\r][\n]"
+03:56:01  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+03:56:01  [DEBUG] : http-outgoing-0 << "{"msg":"[0xe6][0x81][0xad][0xe5][0x96][0x9c][0xe6][0x82][0xa8]post[0xe6][0x96][0xb9][0xe6][0xb3][0x95][0xe7][0x99][0xbb][0xe5][0xbd][0x95][0xe6][0x88][0x90][0xe5][0x8a][0x9f][0xef][0xbc][0x81]"}"
+03:56:01  [DEBUG] : http-outgoing-0 << HTTP/1.1 200 
+03:56:01  [DEBUG] : http-outgoing-0 << Set-Cookie: JSESSIONID=138EF64B9A7F8E3AF31729D02F724A4D; Path=/Vip04Login; HttpOnly
+03:56:01  [DEBUG] : http-outgoing-0 << Set-Cookie: JSESSIONID=138EF64B9A7F8E3AF31729D02F724A4D; Max-Age=300; Expires=Thu, 20-Feb-2020 20:01:01 GMT
+03:56:01  [DEBUG] : http-outgoing-0 << Content-Type: text/html;charset=utf-8
+03:56:01  [DEBUG] : http-outgoing-0 << Content-Length: 44
+03:56:01  [DEBUG] : http-outgoing-0 << Date: Thu, 20 Feb 2020 19:56:01 GMT
+03:56:01  [DEBUG] : Connection can be kept alive indefinitely
+03:56:01  [DEBUG] : Cookie accepted [JSESSIONID="138EF64B9A7F8E3AF31729D02F724A4D", version:0, domain:localhost, path:/Vip04Login, expiry:null]
+03:56:01  [DEBUG] : Cookie accepted [JSESSIONID="138EF64B9A7F8E3AF31729D02F724A4D", version:0, domain:localhost, path:/Vip04Login, expiry:Fri Feb 21 04:01:01 CST 2020]
+03:56:01  [DEBUG] : Connection [id: 0][route: {}->http://localhost:8080] can be kept alive indefinitely
+03:56:01  [DEBUG] : http-outgoing-0: set socket timeout to 0
+03:56:01  [DEBUG] : Connection released: [id: 0][route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+03:56:01  [DEBUG] : Connection manager is shutting down
+03:56:01  [DEBUG] : http-outgoing-0: Close connection
+03:56:01  [DEBUG] : Connection manager shut down
+03:56:21  [DEBUG] : CookieSpec selected: default
+03:56:21  [DEBUG] : Auth cache not set in the context
+03:56:21  [DEBUG] : Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+03:56:21  [DEBUG] : Connection leased: [id: 0][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+03:56:21  [DEBUG] : Opening connection {}->http://localhost:8080
+03:56:21  [DEBUG] : Connecting to localhost/127.0.0.1:8080
+03:56:23  [DEBUG] : Connect to localhost/127.0.0.1:8080 timed out. Connection will be retried using another IP address
+03:56:23  [DEBUG] : Connecting to localhost/0:0:0:0:0:0:0:1:8080
+03:56:25  [DEBUG] : http-outgoing-0: Shutdown connection
+03:56:25  [DEBUG] : Connection discarded
+03:56:25  [DEBUG] : Connection released: [id: 0][route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+03:56:25  [ERROR] : org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at com.testing.inter.HttpClientKw.doPost(HttpClientKw.java:205) [classes/:?]
+	at com.testing.class9.KwTest.main(KwTest.java:10) [classes/:?]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_221]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_221]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_221]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_221]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_221]
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.11.jar:4.5.11]
+	at com.testing.inter.HttpClientKw.doPost(HttpClientKw.java:190) ~[classes/:?]
+	... 1 more
+03:56:25  [DEBUG] : Connection manager is shutting down
+03:56:25  [DEBUG] : Connection manager shut down
+03:56:41  [DEBUG] : CookieSpec selected: default
+03:56:41  [DEBUG] : Auth cache not set in the context
+03:56:41  [DEBUG] : Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+03:56:41  [DEBUG] : Connection leased: [id: 0][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+03:56:41  [DEBUG] : Opening connection {}->http://localhost:8080
+03:56:41  [DEBUG] : Connecting to localhost/127.0.0.1:8080
+03:56:43  [DEBUG] : Connect to localhost/127.0.0.1:8080 timed out. Connection will be retried using another IP address
+03:56:43  [DEBUG] : Connecting to localhost/0:0:0:0:0:0:0:1:8080
+03:56:45  [DEBUG] : http-outgoing-0: Shutdown connection
+03:56:45  [DEBUG] : Connection discarded
+03:56:45  [DEBUG] : Connection released: [id: 0][route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+03:56:45  [ERROR] : org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at com.testing.inter.HttpClientKw.doPost(HttpClientKw.java:205) [classes/:?]
+	at com.testing.class9.KwTest.main(KwTest.java:10) [classes/:?]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_221]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_221]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_221]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_221]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_221]
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.11.jar:4.5.11]
+	at com.testing.inter.HttpClientKw.doPost(HttpClientKw.java:190) ~[classes/:?]
+	... 1 more
+03:56:45  [DEBUG] : Connection manager is shutting down
+03:56:45  [DEBUG] : Connection manager shut down

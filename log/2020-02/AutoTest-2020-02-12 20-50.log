@@ -1,0 +1,53 @@
+20:50:00  [INFO ] : 点击元素//input[@name='submit']
+20:50:00  [INFO ] : 切换workspaceiframe成功
+20:50:00  [INFO ] : 点击元素//span[text()='添加商品']
+20:50:15  [ERROR] : 对//input[@name='goods_name']输入操作失败
+20:50:15  [ERROR] : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='goods_name']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATQ3D2C', ip: '192.168.2.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:55331}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 09f4d103f894777f3adef915a5a987b2
+*** Element info: {Using=xpath, value=//input[@name='goods_name']}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='goods_name']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATQ3D2C', ip: '192.168.2.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:55331}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 09f4d103f894777f3adef915a5a987b2
+*** Element info: {Using=xpath, value=//input[@name='goods_name']}
+	at com.testing.webKeyword.WebkeyWord.input(WebkeyWord.java:131) [classes/:?]
+	at com.testing.class4.ShopManagerTest.addGoods(ShopManagerTest.java:39) [classes/:?]
+	at com.testing.class5.PObuyAndAdd.main(PObuyAndAdd.java:19) [classes/:?]
+20:50:15  [INFO ] : 错误截图保存在log/ScrShot/输入内容20200212+20-50-15.png
+20:50:21  [INFO ] : 操作select元素选择电脑
+20:50:23  [INFO ] : 操作select元素选择电脑整机
+20:50:25  [INFO ] : 操作select元素选择游戏本
+20:50:26  [INFO ] : 向//input[@name='shop_price']元素输入5000
+20:50:26  [INFO ] : 向//input[@name='market_price']元素输入5500
+20:50:26  [INFO ] : 点击元素//input[contains(@title,'查看大图')]
+20:50:26  [INFO ] : 切换//iframe[contains(@src,'func=img')]iframe成功
+20:50:31  [INFO ] : 向//div[@id='filePicker']//input[@type='file']元素输入F:\疫情.png
+20:50:31  [INFO ] : 点击元素//div[@class='saveBtn']
+20:50:31  [INFO ] : 切换workspaceiframe成功
+20:50:31  [INFO ] : 点击元素//label[contains(string(),'是否包邮')]/../following-sibling::dd//label[text()='是']
+20:50:41  [INFO ] : 切换ueditor_0iframe成功
+20:50:41  [INFO ] : 对//p元素执行js语句操作，返回结果是这是VIP05的测试商品
+20:50:41  [INFO ] : 切换workspaceiframe成功
+20:50:42  [INFO ] : 点击元素//a[@id='submit']
+20:50:42  [INFO ] : 测试失败
+20:50:44  [INFO ] : 访问的网站url是http://www.testingedu.com.cn:8000/
+20:50:44  [INFO ] : 点击元素//a[text()='登录']
+20:50:44  [INFO ] : 向//input[@id='username']元素输入13800138006
+20:50:45  [INFO ] : 向//input[@id='password']元素输入123456
+20:50:45  [INFO ] : 向//input[@id='verify_code']元素输入1
+20:50:45  [INFO ] : 点击元素//a[@name='sbtbutton']
+20:50:49  [INFO ] : 点击元素//a[text()='返回商城首页']
+20:50:49  [INFO ] : 在//a[text()='全部商品分类']元素上悬停
+20:50:50  [INFO ] : 在//a[text()='手机数码']元素上悬停
+20:50:50  [INFO ] : 点击元素//a[text()='手机' and not(@class)]
+20:50:55  [INFO ] : 切换浏览器到商品列表窗口

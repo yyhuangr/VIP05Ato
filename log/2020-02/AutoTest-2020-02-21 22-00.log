@@ -1,0 +1,58 @@
+22:00:45  [DEBUG] : CookieSpec selected: default
+22:00:45  [DEBUG] : Auth cache not set in the context
+22:00:45  [DEBUG] : Connection request: [route: {s}->https://sp0.baidu.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:00:45  [DEBUG] : Connection leased: [id: 0][route: {s}->https://sp0.baidu.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:00:45  [DEBUG] : Opening connection {s}->https://sp0.baidu.com:443
+22:00:45  [DEBUG] : Connecting to sp0.baidu.com/14.215.177.39:443
+22:00:45  [DEBUG] : Connecting socket to sp0.baidu.com/14.215.177.39:443 with timeout 0
+22:00:45  [DEBUG] : Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+22:00:45  [DEBUG] : Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+22:00:45  [DEBUG] : Starting handshake
+22:00:45  [DEBUG] : Secure session established
+22:00:45  [DEBUG] :  negotiated protocol: TLSv1.2
+22:00:45  [DEBUG] :  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+22:00:45  [DEBUG] :  peer principal: CN=baidu.com, O="Beijing Baidu Netcom Science Technology Co., Ltd", OU=service operation department, L=beijing, ST=beijing, C=CN
+22:00:45  [DEBUG] :  peer alternative names: [baidu.com, click.hm.baidu.com, cm.pos.baidu.com, log.hm.baidu.com, update.pan.baidu.com, wn.pos.baidu.com, *.91.com, *.aipage.cn, *.aipage.com, *.apollo.auto, *.baidu.com, *.baidubce.com, *.baiducontent.com, *.baidupcs.com, *.baidustatic.com, *.baifae.com, *.baifubao.com, *.bce.baidu.com, *.bcehost.com, *.bdimg.com, *.bdstatic.com, *.bdtjrcv.com, *.bj.baidubce.com, *.chuanke.com, *.dlnel.com, *.dlnel.org, *.dueros.baidu.com, *.eyun.baidu.com, *.fanyi.baidu.com, *.gz.baidubce.com, *.hao123.baidu.com, *.hao123.com, *.hao222.com, *.im.baidu.com, *.map.baidu.com, *.mbd.baidu.com, *.mipcdn.com, *.news.baidu.com, *.nuomi.com, *.safe.baidu.com, *.smartapps.cn, *.ssl2.duapps.com, *.su.baidu.com, *.trustgo.com, *.xueshu.baidu.com, apollo.auto, baifae.com, baifubao.com, dwz.cn, mct.y.nuomi.com, www.baidu.cn, www.baidu.com.cn]
+22:00:45  [DEBUG] :  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+22:00:45  [DEBUG] : Connection established 192.168.2.194:55920<->14.215.177.39:443
+22:00:45  [DEBUG] : Executing request GET /8aQDcjqpAAV3otqbppnN2DJv/api.php?query=1.1.1.1&resource_id=6006&ie=utf8&oe=gbk HTTP/1.1
+22:00:45  [DEBUG] : Target auth state: UNCHALLENGED
+22:00:45  [DEBUG] : Proxy auth state: UNCHALLENGED
+22:00:45  [DEBUG] : http-outgoing-0 >> GET /8aQDcjqpAAV3otqbppnN2DJv/api.php?query=1.1.1.1&resource_id=6006&ie=utf8&oe=gbk HTTP/1.1
+22:00:45  [DEBUG] : http-outgoing-0 >> Host: sp0.baidu.com
+22:00:45  [DEBUG] : http-outgoing-0 >> Connection: Keep-Alive
+22:00:45  [DEBUG] : http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+22:00:45  [DEBUG] : http-outgoing-0 >> Accept-Encoding: gzip,deflate
+22:00:45  [DEBUG] : http-outgoing-0 >> "GET /8aQDcjqpAAV3otqbppnN2DJv/api.php?query=1.1.1.1&resource_id=6006&ie=utf8&oe=gbk HTTP/1.1[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 >> "Host: sp0.baidu.com[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 >> "[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 << "Cache-Control: private[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 << "Connection: Keep-Alive[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 << "Content-Length: 328[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 << "Content-Type: application/json;charset=gbk[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 << "Date: Fri, 21 Feb 2020 14:00:45 GMT[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 << "Expires: Fri, 21 Feb 2020 14:00:45 GMT[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 << "P3p: CP=" OTI DSP COR IVA OUR IND COM "[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 << "Server: Apache[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 << "Set-Cookie: BAIDUID=97D718C1CD7BCA7551C4F2B761C60A33:FG=1; expires=Sat, 20-Feb-21 14:00:45 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 << "X-Powered-By: HHVM[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+22:00:45  [DEBUG] : http-outgoing-0 << "{"status":"0","t":"","set_cache_time":"","data":[{"location":"[0xb0][0xc4][0xb4][0xf3][0xc0][0xfb][0xd1][0xc7]","titlecont":"IP[0xb5][0xd8][0xd6][0xb7][0xb2][0xe9][0xd1][0xaf]","origip":"1.1.1.1","origipquery":"1.1.1.1","showlamp":"1","showLikeShare":1,"shareImage":1,"ExtendedLocation":"","OriginQuery":"1.1.1.1","tplt":"ip","resourceid":"6006","fetchkey":"1.1.1.1","appinfo":"","role_id":0,"disp_type":0}]}"
+22:00:45  [DEBUG] : http-outgoing-0 << HTTP/1.1 200 OK
+22:00:45  [DEBUG] : http-outgoing-0 << Cache-Control: private
+22:00:45  [DEBUG] : http-outgoing-0 << Connection: Keep-Alive
+22:00:45  [DEBUG] : http-outgoing-0 << Content-Length: 328
+22:00:45  [DEBUG] : http-outgoing-0 << Content-Type: application/json;charset=gbk
+22:00:45  [DEBUG] : http-outgoing-0 << Date: Fri, 21 Feb 2020 14:00:45 GMT
+22:00:45  [DEBUG] : http-outgoing-0 << Expires: Fri, 21 Feb 2020 14:00:45 GMT
+22:00:45  [DEBUG] : http-outgoing-0 << P3p: CP=" OTI DSP COR IVA OUR IND COM "
+22:00:45  [DEBUG] : http-outgoing-0 << Server: Apache
+22:00:45  [DEBUG] : http-outgoing-0 << Set-Cookie: BAIDUID=97D718C1CD7BCA7551C4F2B761C60A33:FG=1; expires=Sat, 20-Feb-21 14:00:45 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1
+22:00:45  [DEBUG] : http-outgoing-0 << X-Powered-By: HHVM
+22:00:45  [DEBUG] : Connection can be kept alive indefinitely
+22:00:45  [DEBUG] : Cookie accepted [BAIDUID="97D718C1CD7BCA7551C4F2B761C60A33:FG=1", version:0, domain:baidu.com, path:/, expiry:Sat Feb 20 22:00:45 CST 2021]
+22:00:45  [INFO ] : 返回内容是HttpResponseProxy{HTTP/1.1 200 OK [Cache-Control: private, Connection: Keep-Alive, Content-Length: 328, Content-Type: application/json;charset=gbk, Date: Fri, 21 Feb 2020 14:00:45 GMT, Expires: Fri, 21 Feb 2020 14:00:45 GMT, P3p: CP=" OTI DSP COR IVA OUR IND COM ", Server: Apache, Set-Cookie: BAIDUID=97D718C1CD7BCA7551C4F2B761C60A33:FG=1; expires=Sat, 20-Feb-21 14:00:45 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1, X-Powered-By: HHVM] ResponseEntityProxy{[Content-Type: application/json;charset=gbk,Content-Length: 328,Chunked: false]}}

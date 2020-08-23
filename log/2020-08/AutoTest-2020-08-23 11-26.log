@@ -1,0 +1,6 @@
+11:26:11  [INFO ] : 没有匹配到关键字，请检查！
+11:26:11  [INFO ] : 没有匹配到关键字，请检查！
+11:26:12  [INFO ] : 在keywordOfinter类中输出返回的结果是{"status":200,"msg":"success","token":"e53eb5b4dcd3436c951540a007efa3d0"}
+11:26:13  [INFO ] : 测试通过！
+11:26:54  [INFO ] : 在keywordOfinter类中输出返回的结果是{"status":405,"msg":"非法请求"}
+11:26:54  [INFO ] : 测试失败！

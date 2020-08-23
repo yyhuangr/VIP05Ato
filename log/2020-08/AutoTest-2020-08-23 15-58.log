@@ -1,0 +1,26 @@
+15:58:14  [INFO ] : 在keywordOfinter类中输出返回的结果是{"status":200,"msg":"success","token":"7ce1adbe18e64120adb12a134160c228"}
+15:58:14  [INFO ] : {"status":401,"msg":"用户已被注册"}
+15:58:14  [INFO ] : registerResult={"status":401,"msg":"用户已被注册"}
+15:58:15  [INFO ] : 在keywordOfinter类中输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+15:58:15  [ERROR] : 保存参数失败
+15:58:15  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.testing.inter.KeywordOfInter.saveParam(KeywordOfInter.java:118) [classes/:?]
+	at com.chen.class13.RestTest.main(RestTest.java:23) [classes/:?]
+15:58:15  [ERROR] : java.lang.IllegalArgumentException: Illegal character in path at index 51: http://www.testingedu.com.cn:8081/inter/REST/login/{idValue}
+java.lang.IllegalArgumentException: Illegal character in path at index 51: http://www.testingedu.com.cn:8081/inter/REST/login/{idValue}
+	at com.testing.inter.HttpClientKw.doPost(HttpClientKw.java:252) [classes/:?]
+	at com.testing.inter.KeywordOfInter.testPost(KeywordOfInter.java:40) [classes/:?]
+	at com.chen.class13.RestTest.main(RestTest.java:25) [classes/:?]
+Caused by: java.net.URISyntaxException: Illegal character in path at index 51: http://www.testingedu.com.cn:8081/inter/REST/login/{idValue}
+	at java.net.URI$Parser.fail(URI.java:2848) ~[?:1.8.0_221]
+	at java.net.URI$Parser.checkChars(URI.java:3021) ~[?:1.8.0_221]
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105) ~[?:1.8.0_221]
+	at java.net.URI$Parser.parse(URI.java:3053) ~[?:1.8.0_221]
+	at java.net.URI.<init>(URI.java:588) ~[?:1.8.0_221]
+	at java.net.URI.create(URI.java:850) ~[?:1.8.0_221]
+	at org.apache.http.client.methods.HttpPost.<init>(HttpPost.java:73) ~[httpclient-4.5.11.jar:4.5.11]
+	at com.testing.inter.HttpClientKw.doPost(HttpClientKw.java:218) ~[classes/:?]
+	... 2 more
+15:58:15  [INFO ] : 在keywordOfinter类中输出返回的结果是java.lang.IllegalArgumentException: Illegal character in path at index 51: http://www.testingedu.com.cn:8081/inter/REST/login/{idValue}
+15:58:15  [INFO ] : 在keywordOfinter类中输出返回的结果是{"status":200,"msg":"用户已退出登录"}

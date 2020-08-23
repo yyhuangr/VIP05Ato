@@ -1,0 +1,214 @@
+10:41:04  [DEBUG] : CookieSpec selected: default
+10:41:04  [DEBUG] : Auth cache not set in the context
+10:41:04  [DEBUG] : Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+10:41:04  [DEBUG] : Connection leased: [id: 0][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+10:41:04  [DEBUG] : Opening connection {}->http://localhost:8080
+10:41:04  [DEBUG] : Connecting to localhost/127.0.0.1:8080
+10:41:04  [DEBUG] : Connection established 127.0.0.1:46792<->127.0.0.1:8080
+10:41:04  [DEBUG] : http-outgoing-0: set socket timeout to 15000
+10:41:04  [DEBUG] : Executing request POST /VIP05LoginMaven/Login HTTP/1.1
+10:41:04  [DEBUG] : Target auth state: UNCHALLENGED
+10:41:04  [DEBUG] : Proxy auth state: UNCHALLENGED
+10:41:04  [DEBUG] : http-outgoing-0 >> POST /VIP05LoginMaven/Login HTTP/1.1
+10:41:04  [DEBUG] : http-outgoing-0 >> : 
+10:41:04  [DEBUG] : http-outgoing-0 >> Content-Length: 19
+10:41:04  [DEBUG] : http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+10:41:04  [DEBUG] : http-outgoing-0 >> Content-Encoding: UTF-8
+10:41:04  [DEBUG] : http-outgoing-0 >> Host: localhost:8080
+10:41:04  [DEBUG] : http-outgoing-0 >> Connection: Keep-Alive
+10:41:04  [DEBUG] : http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+10:41:04  [DEBUG] : http-outgoing-0 >> Accept-Encoding: gzip,deflate
+10:41:04  [DEBUG] : http-outgoing-0 >> "POST /VIP05LoginMaven/Login HTTP/1.1[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-0 >> ": [\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-0 >> "Content-Length: 19[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-0 >> "Content-Encoding: UTF-8[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-0 >> "Host: localhost:8080[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-0 >> "[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-0 >> "User=Roy&pwd=123456"
+10:41:04  [DEBUG] : http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-0 << "Set-Cookie: JSESSIONID=BD39CBC1319CA8AB7435ECD37800622C; Path=/VIP05LoginMaven; HttpOnly[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-0 << "Content-Type: text/html;charset=utf-8[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-0 << "Content-Length: 48[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-0 << "Date: Wed, 19 Aug 2020 02:41:04 GMT[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-0 << "{"statusCode":"1","msg":"[0xe6][0x81][0xad][0xe5][0x96][0x9c][0xe6][0x82][0xa8][0xe7][0x99][0xbb][0xe5][0xbd][0x95][0xe6][0x88][0x90][0xe5][0x8a][0x9f]"}"
+10:41:04  [DEBUG] : http-outgoing-0 << HTTP/1.1 200 OK
+10:41:04  [DEBUG] : http-outgoing-0 << Server: Apache-Coyote/1.1
+10:41:04  [DEBUG] : http-outgoing-0 << Set-Cookie: JSESSIONID=BD39CBC1319CA8AB7435ECD37800622C; Path=/VIP05LoginMaven; HttpOnly
+10:41:04  [DEBUG] : http-outgoing-0 << Content-Type: text/html;charset=utf-8
+10:41:04  [DEBUG] : http-outgoing-0 << Content-Length: 48
+10:41:04  [DEBUG] : http-outgoing-0 << Date: Wed, 19 Aug 2020 02:41:04 GMT
+10:41:04  [DEBUG] : Connection can be kept alive indefinitely
+10:41:04  [DEBUG] : Cookie accepted [JSESSIONID="BD39CBC1319CA8AB7435ECD37800622C", version:0, domain:localhost, path:/VIP05LoginMaven, expiry:null]
+10:41:04  [DEBUG] : Connection [id: 0][route: {}->http://localhost:8080] can be kept alive indefinitely
+10:41:04  [DEBUG] : http-outgoing-0: set socket timeout to 0
+10:41:04  [DEBUG] : Connection released: [id: 0][route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+10:41:04  [DEBUG] : Connection manager is shutting down
+10:41:04  [DEBUG] : http-outgoing-0: Close connection
+10:41:04  [DEBUG] : Connection manager shut down
+10:41:04  [DEBUG] : CookieSpec selected: default
+10:41:04  [DEBUG] : Cookie [version: 0][name: JSESSIONID][value: BD39CBC1319CA8AB7435ECD37800622C][domain: localhost][path: /VIP05LoginMaven][expiry: null] match [localhost:8080/VIP05LoginMaven/Login]
+10:41:04  [DEBUG] : Auth cache not set in the context
+10:41:04  [DEBUG] : Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+10:41:04  [DEBUG] : Connection leased: [id: 1][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+10:41:04  [DEBUG] : Opening connection {}->http://localhost:8080
+10:41:04  [DEBUG] : Connecting to localhost/127.0.0.1:8080
+10:41:04  [DEBUG] : Connection established 127.0.0.1:46794<->127.0.0.1:8080
+10:41:04  [DEBUG] : http-outgoing-1: set socket timeout to 15000
+10:41:04  [DEBUG] : Executing request POST /VIP05LoginMaven/Login HTTP/1.1
+10:41:04  [DEBUG] : Target auth state: UNCHALLENGED
+10:41:04  [DEBUG] : Proxy auth state: UNCHALLENGED
+10:41:04  [DEBUG] : http-outgoing-1 >> POST /VIP05LoginMaven/Login HTTP/1.1
+10:41:04  [DEBUG] : http-outgoing-1 >> : 
+10:41:04  [DEBUG] : http-outgoing-1 >> Content-Length: 19
+10:41:04  [DEBUG] : http-outgoing-1 >> Content-Type: application/x-www-form-urlencoded
+10:41:04  [DEBUG] : http-outgoing-1 >> Content-Encoding: UTF-8
+10:41:04  [DEBUG] : http-outgoing-1 >> Host: localhost:8080
+10:41:04  [DEBUG] : http-outgoing-1 >> Connection: Keep-Alive
+10:41:04  [DEBUG] : http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+10:41:04  [DEBUG] : http-outgoing-1 >> Cookie: JSESSIONID=BD39CBC1319CA8AB7435ECD37800622C
+10:41:04  [DEBUG] : http-outgoing-1 >> Accept-Encoding: gzip,deflate
+10:41:04  [DEBUG] : http-outgoing-1 >> "POST /VIP05LoginMaven/Login HTTP/1.1[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-1 >> ": [\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-1 >> "Content-Length: 19[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-1 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-1 >> "Content-Encoding: UTF-8[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-1 >> "Host: localhost:8080[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-1 >> "Cookie: JSESSIONID=BD39CBC1319CA8AB7435ECD37800622C[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-1 >> "[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-1 >> "User=Roy&pwd=123456"
+10:41:04  [DEBUG] : http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-1 << "Server: Apache-Coyote/1.1[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-1 << "Content-Type: text/html;charset=utf-8[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-1 << "Content-Length: 63[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-1 << "Date: Wed, 19 Aug 2020 02:41:04 GMT[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-1 << "[\r][\n]"
+10:41:04  [DEBUG] : http-outgoing-1 << "{"statusCode":"0","msg":"[0xe4][0xb8][0x8d][0xe5][0xa5][0xbd][0xe6][0x84][0x8f][0xe6][0x80][0x9d][0xef][0xbc][0x8c][0xe6][0x82][0xa8][0xe5][0xb7][0xb2][0xe7][0xbb][0x8f][0xe7][0x99][0xbb][0xe5][0xbd][0x95][0xe8][0xbf][0x87][0xe4][0xba][0x86]"}"
+10:41:04  [DEBUG] : http-outgoing-1 << HTTP/1.1 200 OK
+10:41:04  [DEBUG] : http-outgoing-1 << Server: Apache-Coyote/1.1
+10:41:04  [DEBUG] : http-outgoing-1 << Content-Type: text/html;charset=utf-8
+10:41:04  [DEBUG] : http-outgoing-1 << Content-Length: 63
+10:41:04  [DEBUG] : http-outgoing-1 << Date: Wed, 19 Aug 2020 02:41:04 GMT
+10:41:04  [DEBUG] : Connection can be kept alive indefinitely
+10:41:04  [DEBUG] : Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
+10:41:04  [DEBUG] : http-outgoing-1: set socket timeout to 0
+10:41:04  [DEBUG] : Connection released: [id: 1][route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+10:41:04  [DEBUG] : Connection manager is shutting down
+10:41:04  [DEBUG] : http-outgoing-1: Close connection
+10:41:04  [DEBUG] : Connection manager shut down
+10:41:47  [DEBUG] : CookieSpec selected: default
+10:41:47  [DEBUG] : Auth cache not set in the context
+10:41:47  [DEBUG] : Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+10:41:47  [DEBUG] : Connection leased: [id: 0][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+10:41:47  [DEBUG] : Opening connection {}->http://localhost:8080
+10:41:47  [DEBUG] : Connecting to localhost/127.0.0.1:8080
+10:41:47  [DEBUG] : Connection established 127.0.0.1:46814<->127.0.0.1:8080
+10:41:47  [DEBUG] : http-outgoing-0: set socket timeout to 15000
+10:41:47  [DEBUG] : Executing request POST /VIP05LoginMaven/Login HTTP/1.1
+10:41:47  [DEBUG] : Target auth state: UNCHALLENGED
+10:41:47  [DEBUG] : Proxy auth state: UNCHALLENGED
+10:41:47  [DEBUG] : http-outgoing-0 >> POST /VIP05LoginMaven/Login HTTP/1.1
+10:41:47  [DEBUG] : http-outgoing-0 >> : 
+10:41:47  [DEBUG] : http-outgoing-0 >> Content-Length: 19
+10:41:47  [DEBUG] : http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+10:41:47  [DEBUG] : http-outgoing-0 >> Content-Encoding: UTF-8
+10:41:47  [DEBUG] : http-outgoing-0 >> Host: localhost:8080
+10:41:47  [DEBUG] : http-outgoing-0 >> Connection: Keep-Alive
+10:41:47  [DEBUG] : http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+10:41:47  [DEBUG] : http-outgoing-0 >> Accept-Encoding: gzip,deflate
+10:41:47  [DEBUG] : http-outgoing-0 >> "POST /VIP05LoginMaven/Login HTTP/1.1[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-0 >> ": [\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-0 >> "Content-Length: 19[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-0 >> "Content-Encoding: UTF-8[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-0 >> "Host: localhost:8080[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-0 >> "[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-0 >> "User=Roy&pwd=123456"
+10:41:47  [DEBUG] : http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-0 << "Set-Cookie: JSESSIONID=C5344E385077EA526FDC2A50EFA190F4; Path=/VIP05LoginMaven; HttpOnly[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-0 << "Content-Type: text/html;charset=utf-8[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-0 << "Content-Length: 48[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-0 << "Date: Wed, 19 Aug 2020 02:41:47 GMT[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-0 << "{"statusCode":"1","msg":"[0xe6][0x81][0xad][0xe5][0x96][0x9c][0xe6][0x82][0xa8][0xe7][0x99][0xbb][0xe5][0xbd][0x95][0xe6][0x88][0x90][0xe5][0x8a][0x9f]"}"
+10:41:47  [DEBUG] : http-outgoing-0 << HTTP/1.1 200 OK
+10:41:47  [DEBUG] : http-outgoing-0 << Server: Apache-Coyote/1.1
+10:41:47  [DEBUG] : http-outgoing-0 << Set-Cookie: JSESSIONID=C5344E385077EA526FDC2A50EFA190F4; Path=/VIP05LoginMaven; HttpOnly
+10:41:47  [DEBUG] : http-outgoing-0 << Content-Type: text/html;charset=utf-8
+10:41:47  [DEBUG] : http-outgoing-0 << Content-Length: 48
+10:41:47  [DEBUG] : http-outgoing-0 << Date: Wed, 19 Aug 2020 02:41:47 GMT
+10:41:47  [DEBUG] : Connection can be kept alive indefinitely
+10:41:47  [DEBUG] : Cookie accepted [JSESSIONID="C5344E385077EA526FDC2A50EFA190F4", version:0, domain:localhost, path:/VIP05LoginMaven, expiry:null]
+10:41:47  [DEBUG] : Connection [id: 0][route: {}->http://localhost:8080] can be kept alive indefinitely
+10:41:47  [DEBUG] : http-outgoing-0: set socket timeout to 0
+10:41:47  [DEBUG] : Connection released: [id: 0][route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+10:41:47  [DEBUG] : Connection manager is shutting down
+10:41:47  [DEBUG] : http-outgoing-0: Close connection
+10:41:47  [DEBUG] : Connection manager shut down
+10:41:47  [INFO ] : {"statusCode":"1","msg":"恭喜您登录成功"}
+10:41:47  [DEBUG] : CookieSpec selected: default
+10:41:47  [DEBUG] : Cookie [version: 0][name: JSESSIONID][value: C5344E385077EA526FDC2A50EFA190F4][domain: localhost][path: /VIP05LoginMaven][expiry: null] match [localhost:8080/VIP05LoginMaven/Login]
+10:41:47  [DEBUG] : Auth cache not set in the context
+10:41:47  [DEBUG] : Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+10:41:47  [DEBUG] : Connection leased: [id: 1][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+10:41:47  [DEBUG] : Opening connection {}->http://localhost:8080
+10:41:47  [DEBUG] : Connecting to localhost/127.0.0.1:8080
+10:41:47  [DEBUG] : Connection established 127.0.0.1:46817<->127.0.0.1:8080
+10:41:47  [DEBUG] : http-outgoing-1: set socket timeout to 15000
+10:41:47  [DEBUG] : Executing request POST /VIP05LoginMaven/Login HTTP/1.1
+10:41:47  [DEBUG] : Target auth state: UNCHALLENGED
+10:41:47  [DEBUG] : Proxy auth state: UNCHALLENGED
+10:41:47  [DEBUG] : http-outgoing-1 >> POST /VIP05LoginMaven/Login HTTP/1.1
+10:41:47  [DEBUG] : http-outgoing-1 >> : 
+10:41:47  [DEBUG] : http-outgoing-1 >> Content-Length: 19
+10:41:47  [DEBUG] : http-outgoing-1 >> Content-Type: application/x-www-form-urlencoded
+10:41:47  [DEBUG] : http-outgoing-1 >> Content-Encoding: UTF-8
+10:41:47  [DEBUG] : http-outgoing-1 >> Host: localhost:8080
+10:41:47  [DEBUG] : http-outgoing-1 >> Connection: Keep-Alive
+10:41:47  [DEBUG] : http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+10:41:47  [DEBUG] : http-outgoing-1 >> Cookie: JSESSIONID=C5344E385077EA526FDC2A50EFA190F4
+10:41:47  [DEBUG] : http-outgoing-1 >> Accept-Encoding: gzip,deflate
+10:41:47  [DEBUG] : http-outgoing-1 >> "POST /VIP05LoginMaven/Login HTTP/1.1[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-1 >> ": [\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-1 >> "Content-Length: 19[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-1 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-1 >> "Content-Encoding: UTF-8[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-1 >> "Host: localhost:8080[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-1 >> "Cookie: JSESSIONID=C5344E385077EA526FDC2A50EFA190F4[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-1 >> "[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-1 >> "User=Roy&pwd=123456"
+10:41:47  [DEBUG] : http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-1 << "Server: Apache-Coyote/1.1[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-1 << "Content-Type: text/html;charset=utf-8[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-1 << "Content-Length: 63[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-1 << "Date: Wed, 19 Aug 2020 02:41:47 GMT[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-1 << "[\r][\n]"
+10:41:47  [DEBUG] : http-outgoing-1 << "{"statusCode":"0","msg":"[0xe4][0xb8][0x8d][0xe5][0xa5][0xbd][0xe6][0x84][0x8f][0xe6][0x80][0x9d][0xef][0xbc][0x8c][0xe6][0x82][0xa8][0xe5][0xb7][0xb2][0xe7][0xbb][0x8f][0xe7][0x99][0xbb][0xe5][0xbd][0x95][0xe8][0xbf][0x87][0xe4][0xba][0x86]"}"
+10:41:47  [DEBUG] : http-outgoing-1 << HTTP/1.1 200 OK
+10:41:47  [DEBUG] : http-outgoing-1 << Server: Apache-Coyote/1.1
+10:41:47  [DEBUG] : http-outgoing-1 << Content-Type: text/html;charset=utf-8
+10:41:47  [DEBUG] : http-outgoing-1 << Content-Length: 63
+10:41:47  [DEBUG] : http-outgoing-1 << Date: Wed, 19 Aug 2020 02:41:47 GMT
+10:41:47  [DEBUG] : Connection can be kept alive indefinitely
+10:41:47  [DEBUG] : Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
+10:41:47  [DEBUG] : http-outgoing-1: set socket timeout to 0
+10:41:47  [DEBUG] : Connection released: [id: 1][route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+10:41:47  [DEBUG] : Connection manager is shutting down
+10:41:47  [DEBUG] : http-outgoing-1: Close connection
+10:41:47  [DEBUG] : Connection manager shut down
+10:41:47  [INFO ] : {"statusCode":"0","msg":"不好意思，您已经登录过了"}

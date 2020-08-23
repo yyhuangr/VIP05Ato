@@ -1,0 +1,9 @@
+20:51:05  [INFO ] : 点击元素//div[@class='shop-list-splb p']/ul/li[2]//div[@class='shop_name2']/a
+20:51:05  [INFO ] : 点击元素//a[@id='join_cart']
+20:51:05  [INFO ] : 切换//div[@class='layui-layer-content']/iframeiframe成功
+20:51:16  [INFO ] : 点击元素//a[text()='去购物车结算']
+20:51:19  [INFO ] : 点击元素//a[@class='paytotal']
+20:51:19  [INFO ] : 执行js滚动条到底成功
+20:51:22  [INFO ] : 对//button[@type='submit']元素执行js语句操作
+20:51:25  [INFO ] : 断言元素的文本内容是：订单提交成功，请您尽快付款！
+20:51:25  [INFO ] : 断言文本内容包含提交成功测试成功

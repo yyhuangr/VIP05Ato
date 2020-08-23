@@ -1,0 +1,59 @@
+10:21:35  [INFO ] : 没有匹配到关键字，请检查！
+10:21:35  [INFO ] : 没有匹配到关键字，请检查！
+10:21:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"9c3fe50d803546edb77ddb6df066884e"}
+10:21:36  [INFO ] : chen hui ---------actual=200expect=200
+10:21:36  [INFO ] : 测试通过！
+10:21:36  [INFO ] : 外部断言通过！
+10:21:36  [INFO ] : 没有匹配到关键字，请检查！
+10:21:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+10:21:36  [INFO ] : chen hui ---------actual=非法请求expect=恭喜您，登录成功
+10:21:36  [INFO ] : 测试失败！
+10:21:36  [INFO ] : 外部断言失败！
+10:21:36  [INFO ] : 没有匹配到关键字，请检查！
+10:21:37  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+10:21:37  [INFO ] : chen hui ---------actual=非法请求expect=查询成功
+10:21:37  [INFO ] : 测试失败！
+10:21:37  [INFO ] : 外部断言失败！
+10:21:37  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+10:21:37  [INFO ] : chen hui ---------actual=非法请求expect=用户已退出登录
+10:21:37  [INFO ] : 测试失败！
+10:21:37  [INFO ] : 外部断言失败！
+10:21:37  [INFO ] : 没有匹配到关键字，请检查！
+10:21:37  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"977bd24f67ff4303b190f10f4b03e602"}
+10:21:37  [INFO ] : chen hui ---------actual=200expect=200
+10:21:37  [INFO ] : 测试通过！
+10:21:37  [INFO ] : 外部断言通过！
+10:21:37  [INFO ] : 没有匹配到关键字，请检查！
+10:21:37  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+10:21:37  [INFO ] : chen hui ---------actual=非法请求expect=用户名密码错误
+10:21:37  [INFO ] : 测试失败！
+10:21:37  [INFO ] : 外部断言失败！
+10:21:37  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"5ef248db9d604a578161474448b1a005"}
+10:21:37  [INFO ] : chen hui ---------actual=200expect=200
+10:21:37  [INFO ] : 测试通过！
+10:21:37  [INFO ] : 外部断言通过！
+10:21:37  [INFO ] : 没有匹配到关键字，请检查！
+10:21:37  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+10:21:37  [INFO ] : chen hui ---------actual=非法请求expect=用户名密码错误
+10:21:37  [INFO ] : 测试失败！
+10:21:37  [INFO ] : 外部断言失败！
+10:21:37  [INFO ] : 没有匹配到关键字，请检查！
+10:21:37  [INFO ] : 没有匹配到关键字，请检查！
+10:21:37  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"54c75f76908440bcb293dc181392b0ff"}
+10:21:37  [INFO ] : chen hui ---------actual=200expect=200
+10:21:37  [INFO ] : 测试通过！
+10:21:37  [INFO ] : 外部断言通过！
+10:21:37  [INFO ] : 没有匹配到关键字，请检查！
+10:21:37  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+10:21:37  [INFO ] : chen hui ---------actual=非法请求expect=恭喜您，登录成功
+10:21:37  [INFO ] : 测试失败！
+10:21:37  [INFO ] : 外部断言失败！
+10:21:37  [INFO ] : 没有匹配到关键字，请检查！
+10:21:37  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+10:21:37  [INFO ] : chen hui ---------actual=非法请求expect=查询成功
+10:21:37  [INFO ] : 测试失败！
+10:21:37  [INFO ] : 外部断言失败！
+10:21:37  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+10:21:37  [INFO ] : chen hui ---------actual=非法请求expect=用户已退出登录
+10:21:37  [INFO ] : 测试失败！
+10:21:37  [INFO ] : 外部断言失败！

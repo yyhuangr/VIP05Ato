@@ -1,0 +1,4 @@
+22:38:22  [ERROR] : java.lang.NumberFormatException: For input string: "ss"
+java.lang.NumberFormatException: For input string: "ss"
+	at com.testing.class4.TestLog4j.main(TestLog4j.java:28) [classes/:?]
+22:38:22  [FATAL] : This is a fatal error.

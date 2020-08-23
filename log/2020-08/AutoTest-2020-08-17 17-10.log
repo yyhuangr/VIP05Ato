@@ -1,0 +1,6 @@
+17:10:58  [INFO ] : I/O exception (java.io.FileNotFoundException) caught when processing request to {}->http://testingedu.com.cn:8000: f:.jpg (文件名、目录名或卷标语法不正确。)
+17:10:58  [INFO ] : Retrying request to {}->http://testingedu.com.cn:8000
+17:10:58  [INFO ] : I/O exception (java.io.FileNotFoundException) caught when processing request to {}->http://testingedu.com.cn:8000: f:.jpg (文件名、目录名或卷标语法不正确。)
+17:10:58  [INFO ] : Retrying request to {}->http://testingedu.com.cn:8000
+17:10:58  [INFO ] : I/O exception (java.io.FileNotFoundException) caught when processing request to {}->http://testingedu.com.cn:8000: f:.jpg (文件名、目录名或卷标语法不正确。)
+17:10:58  [INFO ] : Retrying request to {}->http://testingedu.com.cn:8000

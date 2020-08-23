@@ -1,0 +1,4 @@
+20:04:57  [INFO ] : 访问的网站url是http://www.testingedu.com.cn:8000/Admin/Admin/login
+20:04:57  [INFO ] : 向//input[@name='username']元素输入admin
+20:04:57  [INFO ] : 向//input[@name='password']元素输入123456
+20:04:57  [INFO ] : 向//input[@name='vertify']元素输入126

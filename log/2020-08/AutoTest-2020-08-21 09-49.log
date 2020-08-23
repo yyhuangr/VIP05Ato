@@ -1,0 +1,83 @@
+09:49:14  [INFO ] : chen hui ---------actual=200expect=200
+09:49:14  [INFO ] : 测试通过！
+09:49:14  [INFO ] : 外部断言通过！
+09:49:14  [INFO ] : 没有匹配到关键字，请检查！
+09:49:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+09:49:14  [INFO ] : chen hui ---------actual=非法请求expect=恭喜您，登录成功
+09:49:14  [INFO ] : 测试失败！
+09:49:14  [INFO ] : 外部断言失败！
+09:49:14  [INFO ] : 没有匹配到关键字，请检查！
+09:49:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+09:49:14  [INFO ] : chen hui ---------actual=非法请求expect=查询成功
+09:49:14  [INFO ] : 测试失败！
+09:49:14  [INFO ] : 外部断言失败！
+09:49:14  [INFO ] : 在keyword中调试输出返回的结果是<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.14.1</center>
+</body>
+</html>
+
+09:49:14  [ERROR] : 解析失败，请检查jsonPath表达式
+09:49:14  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.14.1</center>
+</body>
+</html>
+
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.14.1</center>
+</body>
+</html>
+
+	at com.testing.inter.KeywordOfInter.assertSame(KeywordOfInter.java:141) [classes/:?]
+	at com.chen.class12.ExcelReaderTest.main(ExcelReaderTest.java:51) [classes/:?]
+09:49:15  [INFO ] : 外部断言失败！
+09:49:15  [INFO ] : 没有匹配到关键字，请检查！
+09:49:15  [INFO ] : 没有匹配到关键字，请检查！
+09:49:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"a85d50c4ae894710ace7feee88037e29"}
+09:49:15  [INFO ] : chen hui ---------actual=200expect=200
+09:49:15  [INFO ] : 测试通过！
+09:49:15  [INFO ] : 外部断言通过！
+09:49:15  [INFO ] : 没有匹配到关键字，请检查！
+09:49:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+09:49:15  [INFO ] : chen hui ---------actual=非法请求expect=用户名密码错误
+09:49:15  [INFO ] : 测试失败！
+09:49:15  [INFO ] : 外部断言失败！
+09:49:15  [INFO ] : 没有匹配到关键字，请检查！
+09:49:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"409766ed31124dc89c3235437281a7d8"}
+09:49:15  [INFO ] : chen hui ---------actual=200expect=200
+09:49:15  [INFO ] : 测试通过！
+09:49:15  [INFO ] : 外部断言通过！
+09:49:15  [INFO ] : 没有匹配到关键字，请检查！
+09:49:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+09:49:15  [INFO ] : chen hui ---------actual=非法请求expect=用户名密码错误
+09:49:15  [INFO ] : 测试失败！
+09:49:15  [INFO ] : 外部断言失败！
+09:49:15  [INFO ] : 没有匹配到关键字，请检查！
+09:49:15  [INFO ] : 没有匹配到关键字，请检查！
+09:49:15  [INFO ] : 没有匹配到关键字，请检查！
+09:49:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"b32350277e61445a9dbd21bdd44e140d"}
+09:49:15  [INFO ] : chen hui ---------actual=200expect=200
+09:49:15  [INFO ] : 测试通过！
+09:49:15  [INFO ] : 外部断言通过！
+09:49:15  [INFO ] : 没有匹配到关键字，请检查！
+09:49:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+09:49:15  [INFO ] : chen hui ---------actual=非法请求expect=恭喜您，登录成功
+09:49:15  [INFO ] : 测试失败！
+09:49:15  [INFO ] : 外部断言失败！
+09:49:15  [INFO ] : 没有匹配到关键字，请检查！
+09:49:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+09:49:15  [INFO ] : chen hui ---------actual=非法请求expect=查询成功
+09:49:15  [INFO ] : 测试失败！
+09:49:15  [INFO ] : 外部断言失败！
+09:49:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+09:49:15  [INFO ] : chen hui ---------actual=非法请求expect=用户已退出登录
+09:49:15  [INFO ] : 测试失败！
+09:49:15  [INFO ] : 外部断言失败！

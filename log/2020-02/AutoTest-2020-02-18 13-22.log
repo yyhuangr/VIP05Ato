@@ -1,0 +1,8 @@
+13:22:31  [INFO ] : 启动appiumserver服务
+13:22:31  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+13-22-31AppiumLog.txt --local-timezone --log-timestamp
+13:22:36  [INFO ] : 执行cmd命令:taskkill /F /IM node.exe
+13:22:36  [INFO ] : 执行cmd命令:taskkill /F /IM cmd.exe
+13:22:46  [INFO ] : 启动appiumserver服务
+13:22:46  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+13-22-46AppiumLog.txt --local-timezone --log-timestamp
+13:22:51  [INFO ] : 执行cmd命令:taskkill /F /IM node.exe
+13:22:51  [INFO ] : 执行cmd命令:taskkill /F /IM cmd.exe

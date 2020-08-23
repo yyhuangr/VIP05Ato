@@ -1,0 +1,7 @@
+16:30:47  [INFO ] : auth接口的返回信息是auth={"status":200,"msg":"success","token":"f14ae0d254fe404f82ad761de7c2eb7c"}
+16:30:47  [INFO ] : token的值是=f14ae0d254fe404f82ad761de7c2eb7c
+16:30:47  [INFO ] : register接口的返回信息是={"status":401,"msg":"用户已被注册"}
+16:30:47  [INFO ] : login接口的返回信息是={"status":200,"msg":"恭喜您，登录成功","userid":"1497"}
+16:30:48  [INFO ] : getUserInfo接口的返回信息是={"status":200,"msg":"查询成功","nickname":"chenhi122","id":"1497","describe":"chenhi1222"}
+16:30:48  [INFO ] : 测试成功！
+16:30:48  [INFO ] : logout接口的返回信息是={"status":200,"msg":"用户已退出登录"}

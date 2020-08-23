@@ -1,0 +1,4 @@
+20:14:22  [INFO ] : 启动appiumserver服务
+20:14:22  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -g log/20200221+20-14-22AppiumLog.txt --local-timezone --log-timestamp
+20:14:27  [INFO ] : 启动待测App
+20:14:57  [INFO ] : APP正在启动中……

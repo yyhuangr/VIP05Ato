@@ -1,0 +1,5 @@
+09:34:22  [INFO ] : {"url":"\/public\/upload\/user\/\/head_pic\/\/a7c198100b36975c38a7632e4d59ea84.jpg","title":"banner","original":"","state":"SUCCESS","path":"images"}
+09:34:22  [INFO ] : {"url":"\/public\/upload\/user\/\/head_pic\/\/a7c198100b36975c38a7632e4d59ea84.jpg","title":"banner","original":"","state":"SUCCESS","path":"images"}
+09:34:52  [INFO ] : {"status_code":1001,"message":"验证码不能为空！","data":null}
+09:34:52  [INFO ] : 1001
+09:34:52  [INFO ] : 测试通过

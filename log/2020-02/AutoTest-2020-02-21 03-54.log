@@ -1,0 +1,52 @@
+03:54:29  [DEBUG] : CookieSpec selected: default
+03:54:29  [DEBUG] : Auth cache not set in the context
+03:54:29  [DEBUG] : Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+03:54:29  [DEBUG] : Connection leased: [id: 0][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+03:54:29  [DEBUG] : Opening connection {}->http://localhost:8080
+03:54:29  [DEBUG] : Connecting to localhost/127.0.0.1:8080
+03:54:29  [DEBUG] : Connection established 127.0.0.1:54697<->127.0.0.1:8080
+03:54:29  [DEBUG] : http-outgoing-0: set socket timeout to 15000
+03:54:29  [DEBUG] : Executing request POST /Vip04Login/Login HTTP/1.1
+03:54:29  [DEBUG] : Target auth state: UNCHALLENGED
+03:54:29  [DEBUG] : Proxy auth state: UNCHALLENGED
+03:54:29  [DEBUG] : http-outgoing-0 >> POST /Vip04Login/Login HTTP/1.1
+03:54:29  [DEBUG] : http-outgoing-0 >> Content-Length: 19
+03:54:29  [DEBUG] : http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+03:54:29  [DEBUG] : http-outgoing-0 >> Content-Encoding: UTF-8
+03:54:29  [DEBUG] : http-outgoing-0 >> Host: localhost:8080
+03:54:29  [DEBUG] : http-outgoing-0 >> Connection: Keep-Alive
+03:54:29  [DEBUG] : http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+03:54:29  [DEBUG] : http-outgoing-0 >> Accept-Encoding: gzip,deflate
+03:54:29  [DEBUG] : http-outgoing-0 >> "POST /Vip04Login/Login HTTP/1.1[\r][\n]"
+03:54:29  [DEBUG] : http-outgoing-0 >> "Content-Length: 19[\r][\n]"
+03:54:29  [DEBUG] : http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+03:54:29  [DEBUG] : http-outgoing-0 >> "Content-Encoding: UTF-8[\r][\n]"
+03:54:29  [DEBUG] : http-outgoing-0 >> "Host: localhost:8080[\r][\n]"
+03:54:29  [DEBUG] : http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+03:54:29  [DEBUG] : http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+03:54:29  [DEBUG] : http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+03:54:29  [DEBUG] : http-outgoing-0 >> "[\r][\n]"
+03:54:29  [DEBUG] : http-outgoing-0 >> "user=Roy&pwd=123456"
+03:54:29  [DEBUG] : http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+03:54:29  [DEBUG] : http-outgoing-0 << "Set-Cookie: JSESSIONID=055A8FC82306BF7A3A896ABA08C12901; Path=/Vip04Login; HttpOnly[\r][\n]"
+03:54:29  [DEBUG] : http-outgoing-0 << "Set-Cookie: JSESSIONID=055A8FC82306BF7A3A896ABA08C12901; Max-Age=300; Expires=Thu, 20-Feb-2020 19:59:29 GMT[\r][\n]"
+03:54:29  [DEBUG] : http-outgoing-0 << "Content-Type: text/html;charset=utf-8[\r][\n]"
+03:54:29  [DEBUG] : http-outgoing-0 << "Content-Length: 44[\r][\n]"
+03:54:29  [DEBUG] : http-outgoing-0 << "Date: Thu, 20 Feb 2020 19:54:29 GMT[\r][\n]"
+03:54:29  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+03:54:29  [DEBUG] : http-outgoing-0 << "{"msg":"[0xe6][0x81][0xad][0xe5][0x96][0x9c][0xe6][0x82][0xa8]post[0xe6][0x96][0xb9][0xe6][0xb3][0x95][0xe7][0x99][0xbb][0xe5][0xbd][0x95][0xe6][0x88][0x90][0xe5][0x8a][0x9f][0xef][0xbc][0x81]"}"
+03:54:29  [DEBUG] : http-outgoing-0 << HTTP/1.1 200 
+03:54:29  [DEBUG] : http-outgoing-0 << Set-Cookie: JSESSIONID=055A8FC82306BF7A3A896ABA08C12901; Path=/Vip04Login; HttpOnly
+03:54:29  [DEBUG] : http-outgoing-0 << Set-Cookie: JSESSIONID=055A8FC82306BF7A3A896ABA08C12901; Max-Age=300; Expires=Thu, 20-Feb-2020 19:59:29 GMT
+03:54:29  [DEBUG] : http-outgoing-0 << Content-Type: text/html;charset=utf-8
+03:54:29  [DEBUG] : http-outgoing-0 << Content-Length: 44
+03:54:29  [DEBUG] : http-outgoing-0 << Date: Thu, 20 Feb 2020 19:54:29 GMT
+03:54:29  [DEBUG] : Connection can be kept alive indefinitely
+03:54:29  [DEBUG] : Cookie accepted [JSESSIONID="055A8FC82306BF7A3A896ABA08C12901", version:0, domain:localhost, path:/Vip04Login, expiry:null]
+03:54:29  [DEBUG] : Cookie accepted [JSESSIONID="055A8FC82306BF7A3A896ABA08C12901", version:0, domain:localhost, path:/Vip04Login, expiry:Fri Feb 21 03:59:29 CST 2020]
+03:54:29  [DEBUG] : Connection [id: 0][route: {}->http://localhost:8080] can be kept alive indefinitely
+03:54:29  [DEBUG] : http-outgoing-0: set socket timeout to 0
+03:54:29  [DEBUG] : Connection released: [id: 0][route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+03:54:29  [DEBUG] : Connection manager is shutting down
+03:54:29  [DEBUG] : http-outgoing-0: Close connection
+03:54:29  [DEBUG] : Connection manager shut down

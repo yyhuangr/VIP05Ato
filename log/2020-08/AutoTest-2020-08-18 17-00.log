@@ -1,0 +1,5 @@
+17:00:55  [INFO ] : 返回头域的Set-Cookie---- Set-Cookie: JSESSIONID=5C5FDE2EEA00C826E992175B4C27E795; Path=/VIP05LoginMaven; HttpOnly
+17:00:55  [INFO ] : 返回cookieValue: JSESSIONID=5C5FDE2EEA00C826E992175B4C27E795; Path=/VIP05LoginMaven; HttpOnly
+17:00:55  [INFO ] : 第一次请求的结果是{"statusCode":"1","msg":"恭喜您登录成功"}
+17:00:55  [INFO ] : +++++第二次请求+++++++++++++++++++++++++++
+17:00:55  [INFO ] : 第二次请求的结果是{"statusCode":"0","msg":"不好意思，您已经登录过了"}

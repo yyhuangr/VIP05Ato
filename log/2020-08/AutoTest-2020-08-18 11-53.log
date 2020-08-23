@@ -1,0 +1,5 @@
+11:53:24  [ERROR] : javax.net.ssl.SSLPeerUnverifiedException: Certificate for <sp0.baidu.com> doesn't match any of the subject alternative names: []
+javax.net.ssl.SSLPeerUnverifiedException: Certificate for <sp0.baidu.com> doesn't match any of the subject alternative names: []
+	at com.testing.inter.HttpClientKw.doGet(HttpClientKw.java:153) [classes/:?]
+	at com.testing.classt10.KecommentKw.main(KecommentKw.java:11) [classes/:?]
+11:53:24  [INFO ] : javax.net.ssl.SSLPeerUnverifiedException: Certificate for <sp0.baidu.com> doesn't match any of the subject alternative names: []

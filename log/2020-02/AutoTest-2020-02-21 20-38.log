@@ -1,0 +1,7 @@
+20:38:00  [INFO ] : 启动appiumserver服务
+20:38:00  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -g log/20200221+20-38-00AppiumLog.txt --local-timezone --log-timestamp
+20:38:05  [INFO ] : 启动待测App
+20:38:32  [INFO ] : APP正在启动中……
+20:38:37  [INFO ] : //*[@text='智行火车票']元素进行点击
+20:38:50  [INFO ] : //*[@text='高铁动车']元素进行点击
+20:38:50  [INFO ] : //*[@text='机票']元素进行点击

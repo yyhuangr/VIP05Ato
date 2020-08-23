@@ -1,0 +1,59 @@
+18:45:52  [ERROR] : org.openqa.selenium.InvalidArgumentException: invalid argument: user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATQ3D2C', ip: '192.168.2.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x010FA113+1548563]
+	Ordinal0 [0x0107DDA1+1039777]
+	Ordinal0 [0x00FFE485+517253]
+	Ordinal0 [0x00F8CB4B+52043]
+	Ordinal0 [0x00FAB797+178071]
+	Ordinal0 [0x00FAB59D+177565]
+	Ordinal0 [0x00FA95FB+169467]
+	Ordinal0 [0x00F9160A+71178]
+	Ordinal0 [0x00F92690+75408]
+	Ordinal0 [0x00F92629+75305]
+	Ordinal0 [0x010971B7+1143223]
+	GetHandleVerifier [0x01192B46+507814]
+	GetHandleVerifier [0x01192864+507076]
+	GetHandleVerifier [0x01199F47+537511]
+	GetHandleVerifier [0x01193402+510050]
+	Ordinal0 [0x0108F29C+1110684]
+	Ordinal0 [0x0109938B+1151883]
+	Ordinal0 [0x010994F3+1152243]
+	Ordinal0 [0x010983F5+1147893]
+	BaseThreadInitThunk [0x76B96359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A57B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77A57B44+180]
+
+org.openqa.selenium.InvalidArgumentException: invalid argument: user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATQ3D2C', ip: '192.168.2.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x010FA113+1548563]
+	Ordinal0 [0x0107DDA1+1039777]
+	Ordinal0 [0x00FFE485+517253]
+	Ordinal0 [0x00F8CB4B+52043]
+	Ordinal0 [0x00FAB797+178071]
+	Ordinal0 [0x00FAB59D+177565]
+	Ordinal0 [0x00FA95FB+169467]
+	Ordinal0 [0x00F9160A+71178]
+	Ordinal0 [0x00F92690+75408]
+	Ordinal0 [0x00F92629+75305]
+	Ordinal0 [0x010971B7+1143223]
+	GetHandleVerifier [0x01192B46+507814]
+	GetHandleVerifier [0x01192864+507076]
+	GetHandleVerifier [0x01199F47+537511]
+	GetHandleVerifier [0x01193402+510050]
+	Ordinal0 [0x0108F29C+1110684]
+	Ordinal0 [0x0109938B+1151883]
+	Ordinal0 [0x010994F3+1152243]
+	Ordinal0 [0x010983F5+1147893]
+	BaseThreadInitThunk [0x76B96359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A57B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77A57B44+180]
+
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.class1.ChromeDemo.main(ChromeDemo.java:23) [classes/:?]
+18:45:52  [ERROR] : 创建driver失败！！

@@ -1,0 +1,5 @@
+20:39:03  [INFO ] : //*[@text='立即领取']/following-sibling::*元素进行点击，关闭广告
+20:39:04  [INFO ] : //*[@text='机票查询']元素进行点击
+20:39:46  [INFO ] : 启动appiumserver服务
+20:39:46  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -g log/20200221+20-39-46AppiumLog.txt --local-timezone --log-timestamp
+20:39:51  [INFO ] : 启动待测App

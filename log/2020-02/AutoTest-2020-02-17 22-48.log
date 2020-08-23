@@ -1,0 +1,10 @@
+22:48:12  [INFO ] : 启动appiumserver服务
+22:48:12  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200217+22-48-12AppiumLog.txt --local-timezone --log-timestamp
+22:48:17  [INFO ] : 启动待测App
+22:48:37  [INFO ] : APP正在启动中……
+22:48:39  [INFO ] : //android.widget.EditText[@content-desc="搜索"]元素进行点击
+22:48:42  [INFO ] : //android.widget.RelativeLayout[@content-desc="搜索聊天或者联系人"]/android.widget.EditText元素中输入Roy
+22:48:44  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/dpr']/android.widget.ImageView[@resource-id='com.tencent.mobileqq:id/image']元素进行点击
+22:48:47  [INFO ] : //android.widget.ImageView[@content-desc="聊天设置"]元素进行点击
+22:48:50  [INFO ] : //*[@text='青鸿']元素进行点击
+22:48:55  [INFO ] : //android.widget.LinearLayout[@content-desc="QQ空间"]元素进行点击

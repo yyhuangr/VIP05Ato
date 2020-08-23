@@ -1,0 +1,4 @@
+10:49:23  [INFO ] : result1={"statusCode":"1","msg":"恭喜您登录成功"}
+10:49:23  [INFO ] : result2={"statusCode":"1","msg":"恭喜您登录成功"}
+10:49:23  [INFO ] : result3={"statusCode":"1","msg":"恭喜您登录成功"}
+10:49:23  [INFO ] : result4={"statusCode":"0","msg":"不好意思，您已经登录过了"}

@@ -1,0 +1,47 @@
+22:47:02  [INFO ] : //android.widget.ImageView[@content-desc="聊天设置"]元素进行点击
+22:47:04  [ERROR] : org.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: //*[@text='青鸿']' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATQ3D2C', ip: '192.168.92.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.SplashActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.SplashActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 96a44800-ddde-4315-8d03-3201556ee7b8
+org.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: //*[@text='青鸿']' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATQ3D2C', ip: '192.168.92.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.SplashActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.SplashActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 96a44800-ddde-4315-8d03-3201556ee7b8
+	at com.testing.app.KeywordOfApp.click(KeywordOfApp.java:170) [classes/:?]
+	at com.testing.class7.QQSayTest.main(QQSayTest.java:20) [classes/:?]
+22:47:05  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200217+22-47-04.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200217+22-47-04.png (系统找不到指定的路径。)
+	at com.testing.app.KeywordOfApp.saveScrShot(KeywordOfApp.java:384) [classes/:?]
+	at com.testing.app.KeywordOfApp.click(KeywordOfApp.java:171) [classes/:?]
+	at com.testing.class7.QQSayTest.main(QQSayTest.java:20) [classes/:?]
+22:47:05  [ERROR] : 截图失败！
+22:47:35  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATQ3D2C', ip: '192.168.92.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.SplashActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.SplashActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 96a44800-ddde-4315-8d03-3201556ee7b8
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout[@content-desc="QQ空间"]}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATQ3D2C', ip: '192.168.92.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.SplashActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.SplashActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 96a44800-ddde-4315-8d03-3201556ee7b8
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout[@content-desc="QQ空间"]}
+	at com.testing.app.KeywordOfApp.click(KeywordOfApp.java:170) [classes/:?]
+	at com.testing.class7.QQSayTest.main(QQSayTest.java:21) [classes/:?]
+22:47:35  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200217+22-47-35.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200217+22-47-35.png (系统找不到指定的路径。)
+	at com.testing.app.KeywordOfApp.saveScrShot(KeywordOfApp.java:384) [classes/:?]
+	at com.testing.app.KeywordOfApp.click(KeywordOfApp.java:171) [classes/:?]
+	at com.testing.class7.QQSayTest.main(QQSayTest.java:21) [classes/:?]
+22:47:35  [ERROR] : 截图失败！

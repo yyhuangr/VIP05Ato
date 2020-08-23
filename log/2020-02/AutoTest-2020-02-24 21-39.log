@@ -1,0 +1,74 @@
+21:39:51  [DEBUG] : CookieSpec selected: default
+21:39:51  [DEBUG] : Auth cache not set in the context
+21:39:51  [DEBUG] : Connection request: [route: {s}->https://b.zhulogic.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+21:39:51  [DEBUG] : Connection leased: [id: 0][route: {s}->https://b.zhulogic.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+21:39:51  [DEBUG] : Opening connection {s}->https://b.zhulogic.com:443
+21:39:51  [DEBUG] : Connecting to b.zhulogic.com/101.37.252.208:443
+21:39:51  [DEBUG] : Connecting socket to b.zhulogic.com/101.37.252.208:443 with timeout 0
+21:39:51  [DEBUG] : Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+21:39:51  [DEBUG] : Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+21:39:51  [DEBUG] : Starting handshake
+21:39:51  [DEBUG] : Secure session established
+21:39:51  [DEBUG] :  negotiated protocol: TLSv1.2
+21:39:51  [DEBUG] :  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+21:39:51  [DEBUG] :  peer principal: CN=*.zhulogic.com
+21:39:51  [DEBUG] :  peer alternative names: [*.zhulogic.com]
+21:39:51  [DEBUG] :  issuer principal: CN=Let's Encrypt Authority X3, O=Let's Encrypt, C=US
+21:39:51  [DEBUG] : Connection established 192.168.2.194:52269<->101.37.252.208:443
+21:39:51  [DEBUG] : Executing request POST /designer_api/account/login_quick_pc HTTP/1.1
+21:39:51  [DEBUG] : Target auth state: UNCHALLENGED
+21:39:51  [DEBUG] : Proxy auth state: UNCHALLENGED
+21:39:51  [DEBUG] : http-outgoing-0 >> POST /designer_api/account/login_quick_pc HTTP/1.1
+21:39:51  [DEBUG] : http-outgoing-0 >> Content-Length: 83
+21:39:51  [DEBUG] : http-outgoing-0 >> Content-Type: application/json
+21:39:51  [DEBUG] : http-outgoing-0 >> Content-Encoding: utf-8
+21:39:51  [DEBUG] : http-outgoing-0 >> Host: b.zhulogic.com
+21:39:51  [DEBUG] : http-outgoing-0 >> Connection: Keep-Alive
+21:39:51  [DEBUG] : http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+21:39:51  [DEBUG] : http-outgoing-0 >> Accept-Encoding: gzip,deflate
+21:39:51  [DEBUG] : http-outgoing-0 >> "POST /designer_api/account/login_quick_pc HTTP/1.1[\r][\n]"
+21:39:51  [DEBUG] : http-outgoing-0 >> "Content-Length: 83[\r][\n]"
+21:39:51  [DEBUG] : http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+21:39:51  [DEBUG] : http-outgoing-0 >> "Content-Encoding: utf-8[\r][\n]"
+21:39:51  [DEBUG] : http-outgoing-0 >> "Host: b.zhulogic.com[\r][\n]"
+21:39:51  [DEBUG] : http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+21:39:51  [DEBUG] : http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)[\r][\n]"
+21:39:51  [DEBUG] : http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:39:51  [DEBUG] : http-outgoing-0 >> "[\r][\n]"
+21:39:51  [DEBUG] : http-outgoing-0 >> "{"code":"","messageType":3,"registration_type":1,"channel":"zhulogic","unionid":""}"
+21:39:52  [DEBUG] : http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "Server: nginx/1.6.3[\r][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "Date: Mon, 24 Feb 2020 13:39:51 GMT[\r][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "X-Application-Context: designer-api:pro:8088[\r][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS[\r][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "Access-Control-Allow-Headers: Accept,Authorization,Cache-Control,Content-Type,DNT,If-Modified-Since,Keep-Alive,Origin,User-Agent,X-Requested-With,dark[\r][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "Access-Control-Max-Age: 3600[\r][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "1b0[\r][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0]lRMO[0x1b]1[0x10][0xfd]+[0xa3][0xbd][0x4][0xa4][0x95][0x15][0xe][0xbd]lo-B[0x1c][0xf8](D[0xca]%[0x8a]*gw[0xb2]kp<[0x8b]=^[0xa2]V=[0xa0][0x9e][0xaa][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "[0xf1][0x7]8[0xf4][0xda]_[0x0][0x8a][0xe0][0xdf][0xf0]u[0xe3]/`g[0x9][0x10])[0x17][0xaf][0xde][0x9b][0xf1][0xf3][0xbc]7[0xfb]3q,[0xd9][0xbb][0xef]9[0x15][0x98]d[0x9f][0xba][0xdd]4[0x99][0xa0]s[0xb2][0xc]([0xe9]K[0xad][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "[0xc9][0x8a][0xc][0x8c][0xa5][0xd2]X[0xc0][0x98],H[[0xfa][0x9][0x1a][0x6][0xc9][0xa0]L[0x81]S[0xe8][0x86]/L[0x90]+*2[0xa8][0xfd]H[0xab][0x1c]~T^S[0xa9]r[0xd1][0x90]8DW[0x93]q[0xd8][0xdf][0xa7]s2lIk[0xb4]b'[0x10][0xe6][0xeb];[0x8e][\r][0xe6][0xc0][0xab][0xfc][0xf8][[0xbe][0xf6]Q[0xc7][0xe2][0x89]G[0xc7][0xed][0x85][0xc3][0x16][0xf4][0xf7][0xd3]#[0xd9][0xc8][0xa9]ph[0x1b][0x8d],*[0xe6]Zl[0x87][0xa3][0xd7][0x12][0xaf]})[0xd9]R[0xb8][0xda]*S[0x8e][0xad][0x9c][0xe0])[0xd9]c[0xd1][0xbc][0x19][0x14]_[0x82][0x95]P[0xb][0xa3]z[0xcd][0xeb])[0x9c]*[0xae]`[0x3][0xd0]Z[0xb2]kn=[0x83][0xc1][0x96]B][0xb4]D[0xf4]K[0xa3]#[0xcc][0x19]:zi[0x98][0xe][0xc4][0xb0][0xe6][0x9d][0x9d][0xba]"[0x83][0x9d][0xc],[0xc6][0xce][0x90]^x[0xce]#[0xc][0x8c][0xd7]z[0xf8][0x19]b[0xe4][0xe][0x6]{[0xc4]{[0x81][0x10][0xcb]:b~9][0x14][0x97]Q4,[0xb4]4[0xa5][0xe8]q4[0xb4]([0x4][0xd1][0xc5]r[0x82][0xf0]*[0xc3]1u[0x9c][0xb2]p[0xbe][0xae][0xc9][0xb2][0xd8][0xc4][0xb1][0xc]~w[0xdb][0x95][0xf7][0xc8][0xdb][0x1c]C[0x4][0xa4][0x1b]9[0xd2][0x98]-f\9[0xdb][0xfc]\~2[0xa0][0xa2]U[0x84][0xd7][0xbf][0x8][0x6]m[0xdb][0xaa][0xca][0xc3][0x9f][0xbf][0xf][0x97][0xb3][0xfb][0x8b][0xab][0xc7]gw[0xd7][0xe7]O[0xbf]o[0xef][0xae]g[0x8f][0xff]g[0xcf]7g[0xc3]!$i[0x12]V#[0x93],[0xc6][0xf5][0xeb][0x5][0x0][0x0][0xff][0xff][0x3][0x0][0xf4]Cz[0xf2][0xa9][0x2][0x0][0x0][\r][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "0[\r][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+21:39:52  [DEBUG] : http-outgoing-0 << HTTP/1.1 200 OK
+21:39:52  [DEBUG] : http-outgoing-0 << Server: nginx/1.6.3
+21:39:52  [DEBUG] : http-outgoing-0 << Date: Mon, 24 Feb 2020 13:39:51 GMT
+21:39:52  [DEBUG] : http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+21:39:52  [DEBUG] : http-outgoing-0 << Transfer-Encoding: chunked
+21:39:52  [DEBUG] : http-outgoing-0 << Connection: keep-alive
+21:39:52  [DEBUG] : http-outgoing-0 << Content-Encoding: gzip
+21:39:52  [DEBUG] : http-outgoing-0 << X-Application-Context: designer-api:pro:8088
+21:39:52  [DEBUG] : http-outgoing-0 << Access-Control-Allow-Credentials: true
+21:39:52  [DEBUG] : http-outgoing-0 << Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+21:39:52  [DEBUG] : http-outgoing-0 << Access-Control-Allow-Headers: Accept,Authorization,Cache-Control,Content-Type,DNT,If-Modified-Since,Keep-Alive,Origin,User-Agent,X-Requested-With,dark
+21:39:52  [DEBUG] : http-outgoing-0 << Access-Control-Max-Age: 3600
+21:39:52  [DEBUG] : Connection can be kept alive indefinitely
+21:39:52  [DEBUG] : Connection [id: 0][route: {s}->https://b.zhulogic.com:443] can be kept alive indefinitely
+21:39:52  [DEBUG] : http-outgoing-0: set socket timeout to 0
+21:39:52  [DEBUG] : Connection released: [id: 0][route: {s}->https://b.zhulogic.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+21:39:52  [INFO ] : {"status_code":500,"message":"Validation failed for argument at index 0 in method: public zhulogic.vo.ResponseVO zhulogic.controller.LoginController.loginQuickPc(zhulogic.vo.request.LoginRequestVO,javax.servlet.http.HttpServletRequest,org.springframework.validation.BindingResult), with 1 error(s): [Field error in object 'loginRequestVO' on field 'phone': rejected value [null]; codes [NotNull.loginRequestVO.phone,NotNull.phone,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginRequestVO.phone,phone]; arguments []; default message [phone]]; default message [手机号码不能为空！]] ","data":null}

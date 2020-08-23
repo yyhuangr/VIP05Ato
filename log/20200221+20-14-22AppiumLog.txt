@@ -1,0 +1,1 @@
+2020-02-21 20:14:25:184 [Appium] Welcome to Appium v1.15.1

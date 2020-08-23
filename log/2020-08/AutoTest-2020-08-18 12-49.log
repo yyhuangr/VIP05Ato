@@ -1,0 +1,24 @@
+12:49:34  [ERROR] : javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake
+javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake
+	at com.testing.inter.HttpClientKw.doGet(HttpClientKw.java:153) [classes/:?]
+	at com.chen.class11.BaiduIpKw.main(BaiduIpKw.java:15) [classes/:?]
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.InputRecord.read(InputRecord.java:505) ~[?:1.8.0_221]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:975) ~[?:1.8.0_221]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367) ~[?:1.8.0_221]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395) ~[?:1.8.0_221]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379) ~[?:1.8.0_221]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.upgrade(DefaultHttpClientConnectionOperator.java:191) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.upgrade(PoolingHttpClientConnectionManager.java:392) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:428) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.11.jar:4.5.11]
+	at com.testing.inter.HttpClientKw.doGet(HttpClientKw.java:138) ~[classes/:?]
+	... 1 more
+12:49:34  [INFO ] : javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake

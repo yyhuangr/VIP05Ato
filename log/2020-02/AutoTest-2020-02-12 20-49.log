@@ -1,0 +1,19 @@
+20:49:00  [INFO ] : 访问的网站url是http://www.testingedu.com.cn:8000/Admin/Admin/login
+20:49:04  [ERROR] : 对//input[@name='username']输入操作失败
+20:49:04  [ERROR] : org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//input[@name='username']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATQ3D2C', ip: '192.168.2.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//input[@name='username']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATQ3D2C', ip: '192.168.2.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+	at com.testing.webKeyword.WebkeyWord.input(WebkeyWord.java:131) [classes/:?]
+	at com.testing.class4.ShopManagerTest.adminLogin(ShopManagerTest.java:26) [classes/:?]
+	at com.testing.class5.PObuyAndAdd.main(PObuyAndAdd.java:17) [classes/:?]
+20:49:38  [INFO ] : 访问的网站url是http://www.testingedu.com.cn:8000/Admin/Admin/login
+20:49:38  [INFO ] : 向//input[@name='username']元素输入admin
+20:49:38  [INFO ] : 向//input[@name='password']元素输入123456
+20:49:38  [INFO ] : 向//input[@name='vertify']元素输入126

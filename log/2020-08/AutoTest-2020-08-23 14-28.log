@@ -1,0 +1,13 @@
+14:28:09  [INFO ] : 没有匹配到关键字，请检查！
+14:28:10  [INFO ] : {"status_code":1001,"message":"验证码不能为空！","data":null}
+14:28:10  [INFO ] : 测试通过！
+14:28:10  [INFO ] : 没有匹配到关键字，请检查！
+14:28:10  [INFO ] : 没有匹配到关键字，请检查！
+14:28:11  [INFO ] : 在keywordOfinter类中输出返回的结果是{"status":200,"msg":"success","token":"6c8713c503fb48cc924dab2b465f834b"}
+14:28:11  [INFO ] : 测试通过！
+14:28:11  [INFO ] : 在keywordOfinter类中输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"77"}
+14:28:11  [INFO ] : 测试通过！
+14:28:11  [INFO ] : 在keywordOfinter类中输出返回的结果是{"status":200,"msg":"查询成功","nickname":"roy","id":"77","describe":"roysensel"}
+14:28:11  [INFO ] : 测试通过！
+14:28:11  [INFO ] : 在keywordOfinter类中输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+14:28:11  [INFO ] : 测试通过！

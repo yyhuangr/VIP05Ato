@@ -1,0 +1,19 @@
+20:13:13  [INFO ] : 启动appiumserver服务
+20:13:13  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -g log/20200221+20-13-13AppiumLog.txt --local-timezone --log-timestamp
+20:13:18  [INFO ] : 启动待测App
+20:13:38  [INFO ] : APP正在启动中……
+20:13:49  [ERROR] : 执行Appium滑动方法失败
+20:13:49  [ERROR] : org.openqa.selenium.InvalidElementStateException: Drag did not complete successfully
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATQ3D2C', ip: '192.168.2.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 0b4c8876-e1ad-490e-89c5-042840b6bc91
+org.openqa.selenium.InvalidElementStateException: Drag did not complete successfully
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATQ3D2C', ip: '192.168.2.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 0b4c8876-e1ad-490e-89c5-042840b6bc91
+	at com.testing.app.KeywordOfApp.appiumSwipe(KeywordOfApp.java:292) [classes/:?]
+	at com.testing.class8.MeituanTest.main(MeituanTest.java:12) [classes/:?]
