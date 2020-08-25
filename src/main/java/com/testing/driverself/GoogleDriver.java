@@ -17,8 +17,10 @@ public class GoogleDriver { // Chrome浏览器驱动类
 	private WebDriver driver = null;
 
 	public GoogleDriver(String driverpath) {
+	
 		// 设置 chrome 的路径
 		System.setProperty("webdriver.chrome.driver", driverpath);
+		System.out.println("GoogleDriver()方法中的driverpath："+driverpath);
 		/**
 		 * Chromeoption对象可以为chrome启动时定制许多参数，需要用到更多参数可以查阅chromeoptions相关说明。
 		 */

@@ -84,7 +84,12 @@
 			<artifactId>axis2-transport-local</artifactId>
 			<version>1.7.9</version>
 		</dependency>
-
+		<!-- 邮件发送-->
+		<dependency>
+			<groupId>com.sun.mail</groupId>
+			<artifactId>javax.mail</artifactId>
+			<version>1.6.2</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>

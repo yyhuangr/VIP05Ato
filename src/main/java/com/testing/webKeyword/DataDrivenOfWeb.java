@@ -62,7 +62,7 @@ public class DataDrivenOfWeb {
 	}
 	
 	/**
-	 * 启动浏览器的方法
+	 * 启动浏览器的方法openBrowser()
 	 * 
 	 * @param浏览器的类型：可以是IE/FF/chrome
 	 */
@@ -82,9 +82,9 @@ public class DataDrivenOfWeb {
 				IEDriver IE = new IEDriver("webDrivers\\IEDriver.exe");
 				driver = IE.getdriver();
 				break;
-			default:
-				GoogleDriver google = new GoogleDriver("webDrivers\\IEDriver.exe");
-				driver = google.getdriver();
+//			default:
+//				GoogleDriver google = new GoogleDriver("webDrivers\\IEDriver.exe");
+//				driver = google.getdriver();
 			}
 			webExcel.writeCell(line, 10, "PASS");
 		} catch (Exception e) {
@@ -111,7 +111,7 @@ public class DataDrivenOfWeb {
 	}
 
 	/**
-	 * 访问URL的方法
+	 * 访问URL的方法 visitWeb()
 	 * 
 	 * @param参数为网页URL
 	 */
@@ -127,7 +127,7 @@ public class DataDrivenOfWeb {
 	}
 
 	/**
-	 * 定位输入框并输入内容方法
+	 * 定位输入框并输入内容方法input()
 	 * 
 	 * @param 定位的表达式以及输入的字符串
 	 */
@@ -144,7 +144,18 @@ public class DataDrivenOfWeb {
 			webExcel.writeFailCell(line, 10, "FAIL");
 		}
 	}
-
+	/**
+	 * 
+	 * @param xpath
+	 */
+//	public void clear(String xpath) {
+//		WebElement element = driver.findElement(By.xpath(xpath));
+//		element.clear();
+//	}
+	/**
+	 * 
+	 * @param xpath
+	 */
 	public void click(String xpath) {
 		try {
 			explicitlyWait(xpath);
@@ -240,7 +251,7 @@ public class DataDrivenOfWeb {
 	}
 
 	/**
-	 * 强制等待的方法
+	 * 强制等待的方法halt()
 	 * 
 	 * @param t强制等待的秒数，用字符串类型传递
 	 */
@@ -255,7 +266,7 @@ public class DataDrivenOfWeb {
 		}
 	}
 
-	// 进入iframe子页面
+	// 进入iframe子页面intoIframe()方法
 	public void intoIframe(String xpath) {
 		try {
 			explicitlyWait(xpath);
@@ -451,7 +462,7 @@ public class DataDrivenOfWeb {
 		// 当前时间的字符串
 		String createdate = sdf.format(date);
 		// 拼接文件名，形式为：工作目录路径+方法名+执行时间.png
-		String scrName = "Scrshot/" + method + createdate + ".png";
+		String scrName = "ScrShot/" + method + createdate + ".png";
 		// 以当前文件名创建文件
 		File scrShot = new File(scrName);
 		// 将截图保存到临时文件

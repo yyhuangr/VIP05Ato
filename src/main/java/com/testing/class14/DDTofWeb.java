@@ -58,28 +58,28 @@ public class DDTofWeb {
 					web.openBrowser(rowContent.get(4));
 					break;
 				case "visitWeb":
-					web.openBrowser(rowContent.get(4));
+					web.visitWeb(rowContent.get(4));
 					break;
 				case "input":
-					web.openBrowser(rowContent.get(4));
+					web.input(rowContent.get(4),rowContent.get(5));
 					break;
 				case "halt":
-					web.openBrowser(rowContent.get(4));
+					web.halt(rowContent.get(4));
 					break;
 				case "click":
-					web.openBrowser(rowContent.get(4));
+					web.click(rowContent.get(4));
 					break;
 				case "closeBrowser":
-					web.openBrowser(rowContent.get(4));
+					web.closeBrowser();
 					break;
 				case "intoIframe":
-					web.openBrowser(rowContent.get(4));
+					web.intoIframe(rowContent.get(4));
 					break;
 				case "clear":
-					web.openBrowser(rowContent.get(4));
+//					web.openBrowser(rowContent.get(4));
 					break;
 				case "selectByValue":
-					web.openBrowser(rowContent.get(4));
+					web.selectByValue(rowContent.get(4),rowContent.get(5));
 					break;
 				
 				//断言操作也是一个独立的关键字进行调用，这里和接口不同。

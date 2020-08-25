@@ -55,6 +55,14 @@ public class DataDrivenOfInter {
 	}
 	
 
+	public String testPostJson(String url, String jsonParam) {
+		url = toParam(url);
+		jsonParam = toParam(jsonParam);
+		tmpResponse = client.doPostJson(url, jsonParam);
+		AutoLogger.log.info(tmpResponse);
+		outExcel.writeCell(line, 11, tmpResponse);
+		return tmpResponse;
+	}
 	public void saveCookie() {
 		try {
 			client.saveCookie();
@@ -88,6 +96,7 @@ public class DataDrivenOfInter {
 			}
 			// 转换出的map作为addheader所使用的map，来进行添加头域的操作。
 			client.addHeader(headerMap);
+			outExcel.writeCell(line, 10, "PASS");
 		} catch (Exception e) {
 			AutoLogger.log.error("头域参数格式错误，请检查");
 			AutoLogger.log.error(e,e.fillInStackTrace());
