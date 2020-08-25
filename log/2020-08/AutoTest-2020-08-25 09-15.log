@@ -1,0 +1,476 @@
+09:15:03  [ERROR] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.webKeyword.DataDrivenOfWeb$1@37ce3644 (tried for 10 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.webKeyword.DataDrivenOfWeb$1@37ce3644 (tried for 10 second(s) with 500 milliseconds interval)
+	at com.testing.webKeyword.DataDrivenOfWeb.explicitlyWait(DataDrivenOfWeb.java:195) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.click(DataDrivenOfWeb.java:150) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:82) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@title='添加商品']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//div[@title='添加商品']}
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_221]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_221]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at com.testing.webKeyword.DataDrivenOfWeb$1.apply(DataDrivenOfWeb.java:191) ~[classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb$1.apply(DataDrivenOfWeb.java:1) ~[classes/:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.explicitlyWait(DataDrivenOfWeb.java:189) ~[classes/:?]
+	... 7 more
+09:15:03  [ERROR] : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@title='添加商品']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//div[@title='添加商品']}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@title='添加商品']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//div[@title='添加商品']}
+	at com.testing.webKeyword.DataDrivenOfWeb.click(DataDrivenOfWeb.java:155) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:82) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:15:03  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200825+09-15-03.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200825+09-15-03.png (系统找不到指定的路径。)
+	at com.testing.webKeyword.DataDrivenOfWeb.saveScrShot(DataDrivenOfWeb.java:462) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.click(DataDrivenOfWeb.java:156) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:82) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:15:03  [ERROR] : 截图失败！
+09:15:14  [ERROR] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.webKeyword.DataDrivenOfWeb$1@25e49cb2 (tried for 10 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.webKeyword.DataDrivenOfWeb$1@25e49cb2 (tried for 10 second(s) with 500 milliseconds interval)
+	at com.testing.webKeyword.DataDrivenOfWeb.explicitlyWait(DataDrivenOfWeb.java:195) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.input(DataDrivenOfWeb.java:136) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:90) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='goods_name']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//input[@name='goods_name']}
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_221]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_221]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at com.testing.webKeyword.DataDrivenOfWeb$1.apply(DataDrivenOfWeb.java:191) ~[classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb$1.apply(DataDrivenOfWeb.java:1) ~[classes/:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.explicitlyWait(DataDrivenOfWeb.java:189) ~[classes/:?]
+	... 7 more
+09:15:14  [ERROR] : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='goods_name']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//input[@name='goods_name']}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='goods_name']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//input[@name='goods_name']}
+	at com.testing.webKeyword.DataDrivenOfWeb.input(DataDrivenOfWeb.java:142) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:90) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:15:14  [ERROR] : java.io.FileNotFoundException: SCRshot\input20200825+09-15-14.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\input20200825+09-15-14.png (系统找不到指定的路径。)
+	at com.testing.webKeyword.DataDrivenOfWeb.saveScrShot(DataDrivenOfWeb.java:462) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.input(DataDrivenOfWeb.java:143) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:90) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:15:14  [ERROR] : 截图失败！
+09:15:14  [ERROR] : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='cat_id']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//*[@id='cat_id']}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='cat_id']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//*[@id='cat_id']}
+	at com.testing.webKeyword.DataDrivenOfWeb.selectByValue(DataDrivenOfWeb.java:424) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:90) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:15:14  [ERROR] : 通过值选择Select失败！
+09:15:14  [ERROR] : java.io.FileNotFoundException: SCRshot\Select20200825+09-15-14.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\Select20200825+09-15-14.png (系统找不到指定的路径。)
+	at com.testing.webKeyword.DataDrivenOfWeb.saveScrShot(DataDrivenOfWeb.java:462) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.selectByValue(DataDrivenOfWeb.java:426) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:90) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:15:14  [ERROR] : 截图失败！
+09:15:16  [ERROR] : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='cat_id_2']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//*[@id='cat_id_2']}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='cat_id_2']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//*[@id='cat_id_2']}
+	at com.testing.webKeyword.DataDrivenOfWeb.selectByValue(DataDrivenOfWeb.java:424) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:90) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:15:16  [ERROR] : 通过值选择Select失败！
+09:15:16  [ERROR] : java.io.FileNotFoundException: SCRshot\Select20200825+09-15-16.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\Select20200825+09-15-16.png (系统找不到指定的路径。)
+	at com.testing.webKeyword.DataDrivenOfWeb.saveScrShot(DataDrivenOfWeb.java:462) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.selectByValue(DataDrivenOfWeb.java:426) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:90) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:15:16  [ERROR] : 截图失败！
+09:15:17  [ERROR] : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='cat_id_3']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//*[@id='cat_id_3']}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='cat_id_3']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//*[@id='cat_id_3']}
+	at com.testing.webKeyword.DataDrivenOfWeb.selectByValue(DataDrivenOfWeb.java:424) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:90) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:15:17  [ERROR] : 通过值选择Select失败！
+09:15:17  [ERROR] : java.io.FileNotFoundException: SCRshot\Select20200825+09-15-17.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\Select20200825+09-15-17.png (系统找不到指定的路径。)
+	at com.testing.webKeyword.DataDrivenOfWeb.saveScrShot(DataDrivenOfWeb.java:462) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.selectByValue(DataDrivenOfWeb.java:426) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:90) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:15:17  [ERROR] : 截图失败！
+09:15:28  [ERROR] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.webKeyword.DataDrivenOfWeb$1@524a2ffb (tried for 10 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.webKeyword.DataDrivenOfWeb$1@524a2ffb (tried for 10 second(s) with 500 milliseconds interval)
+	at com.testing.webKeyword.DataDrivenOfWeb.explicitlyWait(DataDrivenOfWeb.java:195) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.input(DataDrivenOfWeb.java:136) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:90) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='shop_price']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//input[@name='shop_price']}
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_221]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_221]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at com.testing.webKeyword.DataDrivenOfWeb$1.apply(DataDrivenOfWeb.java:191) ~[classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb$1.apply(DataDrivenOfWeb.java:1) ~[classes/:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.explicitlyWait(DataDrivenOfWeb.java:189) ~[classes/:?]
+	... 7 more
+09:15:28  [ERROR] : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='shop_price']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//input[@name='shop_price']}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='shop_price']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//input[@name='shop_price']}
+	at com.testing.webKeyword.DataDrivenOfWeb.input(DataDrivenOfWeb.java:142) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:90) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:15:28  [ERROR] : java.io.FileNotFoundException: SCRshot\input20200825+09-15-28.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\input20200825+09-15-28.png (系统找不到指定的路径。)
+	at com.testing.webKeyword.DataDrivenOfWeb.saveScrShot(DataDrivenOfWeb.java:462) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.input(DataDrivenOfWeb.java:143) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:90) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:15:28  [ERROR] : 截图失败！
+09:15:38  [ERROR] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.webKeyword.DataDrivenOfWeb$1@2f00f851 (tried for 10 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.webKeyword.DataDrivenOfWeb$1@2f00f851 (tried for 10 second(s) with 500 milliseconds interval)
+	at com.testing.webKeyword.DataDrivenOfWeb.explicitlyWait(DataDrivenOfWeb.java:195) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.input(DataDrivenOfWeb.java:136) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:90) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='market_price']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//input[@name='market_price']}
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_221]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_221]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at com.testing.webKeyword.DataDrivenOfWeb$1.apply(DataDrivenOfWeb.java:191) ~[classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb$1.apply(DataDrivenOfWeb.java:1) ~[classes/:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.explicitlyWait(DataDrivenOfWeb.java:189) ~[classes/:?]
+	... 7 more
+09:15:38  [ERROR] : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='market_price']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//input[@name='market_price']}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='market_price']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//input[@name='market_price']}
+	at com.testing.webKeyword.DataDrivenOfWeb.input(DataDrivenOfWeb.java:142) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:90) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:15:39  [ERROR] : java.io.FileNotFoundException: SCRshot\input20200825+09-15-38.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\input20200825+09-15-38.png (系统找不到指定的路径。)
+	at com.testing.webKeyword.DataDrivenOfWeb.saveScrShot(DataDrivenOfWeb.java:462) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.input(DataDrivenOfWeb.java:143) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:90) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:15:39  [ERROR] : 截图失败！
+09:15:49  [ERROR] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.webKeyword.DataDrivenOfWeb$1@3ee0b4f7 (tried for 10 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.webKeyword.DataDrivenOfWeb$1@3ee0b4f7 (tried for 10 second(s) with 500 milliseconds interval)
+	at com.testing.webKeyword.DataDrivenOfWeb.explicitlyWait(DataDrivenOfWeb.java:195) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.click(DataDrivenOfWeb.java:150) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:82) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='is_free_shipping_label_1']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//*[@id='is_free_shipping_label_1']}
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_221]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_221]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at com.testing.webKeyword.DataDrivenOfWeb$1.apply(DataDrivenOfWeb.java:191) ~[classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb$1.apply(DataDrivenOfWeb.java:1) ~[classes/:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.explicitlyWait(DataDrivenOfWeb.java:189) ~[classes/:?]
+	... 7 more
+09:15:49  [ERROR] : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='is_free_shipping_label_1']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//*[@id='is_free_shipping_label_1']}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='is_free_shipping_label_1']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:2512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee70d8bb38907d0769dedea4e9ba6173
+*** Element info: {Using=xpath, value=//*[@id='is_free_shipping_label_1']}
+	at com.testing.webKeyword.DataDrivenOfWeb.click(DataDrivenOfWeb.java:155) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:82) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:15:49  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200825+09-15-49.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200825+09-15-49.png (系统找不到指定的路径。)
+	at com.testing.webKeyword.DataDrivenOfWeb.saveScrShot(DataDrivenOfWeb.java:462) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.click(DataDrivenOfWeb.java:156) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:82) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:15:49  [ERROR] : 截图失败！

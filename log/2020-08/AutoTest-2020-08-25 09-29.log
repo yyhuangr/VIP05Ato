@@ -1,0 +1,51 @@
+09:29:08  [INFO ] : 访问https://www.baidu.com/
+09:29:15  [ERROR] : org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-click="{
+			'F':'778317EA',
+			'F1':'9D73F1E4',
+			'F2':'4CA6DD6B',
+			'F3':'54E5263F',
+			'T':'1598318951',
+						'y':'3C09EFDF'
+												}" href="http://www.baidu.com/link?url=neB498Qv92pFhVKIs9RHtsejhtafkfkBh8CRe59nEpDdEBSod0yzFqG2w0SSxKjJ" target="_blank">...</a> is not clickable at point (180, 153). Other element would receive the click: <li data-key="特斯汀学院软件测试课程免费" class="bdsug-overflow">...</li>
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:3056}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 37af2047adea2c6e11afde728fa151e0
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-click="{
+			'F':'778317EA',
+			'F1':'9D73F1E4',
+			'F2':'4CA6DD6B',
+			'F3':'54E5263F',
+			'T':'1598318951',
+						'y':'3C09EFDF'
+												}" href="http://www.baidu.com/link?url=neB498Qv92pFhVKIs9RHtsejhtafkfkBh8CRe59nEpDdEBSod0yzFqG2w0SSxKjJ" target="_blank">...</a> is not clickable at point (180, 153). Other element would receive the click: <li data-key="特斯汀学院软件测试课程免费" class="bdsug-overflow">...</li>
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\chromeData\copyData}, goog:chromeOptions: {debuggerAddress: localhost:3056}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 37af2047adea2c6e11afde728fa151e0
+	at com.testing.webKeyword.DataDrivenOfWeb.click(DataDrivenOfWeb.java:155) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:82) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:29:15  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200825+09-29-15.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200825+09-29-15.png (系统找不到指定的路径。)
+	at com.testing.webKeyword.DataDrivenOfWeb.saveScrShot(DataDrivenOfWeb.java:462) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.click(DataDrivenOfWeb.java:156) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:82) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+09:29:15  [ERROR] : 截图失败！
+09:29:20  [INFO ] : chrome浏览器启动
+09:29:45  [INFO ] : 访问http://music.163.com/
+09:29:46  [INFO ] : ------当前的sheet页是商城后台系统用例-----------------
+09:29:50  [INFO ] : chrome浏览器启动

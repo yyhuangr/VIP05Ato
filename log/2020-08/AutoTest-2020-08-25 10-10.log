@@ -1,0 +1,383 @@
+10:10:03  [ERROR] : org.openqa.selenium.InvalidArgumentException: invalid argument: user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01079563+2725219]
+	Ordinal0 [0x00F78551+1672529]
+	Ordinal0 [0x00E60359+525145]
+	Ordinal0 [0x00DED8A8+55464]
+	Ordinal0 [0x00E0CC37+183351]
+	Ordinal0 [0x00E0CA3D+182845]
+	Ordinal0 [0x00E0A94B+174411]
+	Ordinal0 [0x00DF2528+75048]
+	Ordinal0 [0x00DF35A0+79264]
+	Ordinal0 [0x00DF3539+79161]
+	Ordinal0 [0x00F8D607+1758727]
+	GetHandleVerifier [0x01196546+1050150]
+	GetHandleVerifier [0x01196291+1049457]
+	GetHandleVerifier [0x011A10D7+1094071]
+	GetHandleVerifier [0x01196B46+1051686]
+	Ordinal0 [0x00F85B06+1727238]
+	Ordinal0 [0x00F8EB7B+1764219]
+	Ordinal0 [0x00F8ECE3+1764579]
+	Ordinal0 [0x00FA4C05+1854469]
+	BaseThreadInitThunk [0x76A03677+18]
+	RtlInitializeExceptionChain [0x770B9D72+99]
+	RtlInitializeExceptionChain [0x770B9D45+54]
+
+org.openqa.selenium.InvalidArgumentException: invalid argument: user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01079563+2725219]
+	Ordinal0 [0x00F78551+1672529]
+	Ordinal0 [0x00E60359+525145]
+	Ordinal0 [0x00DED8A8+55464]
+	Ordinal0 [0x00E0CC37+183351]
+	Ordinal0 [0x00E0CA3D+182845]
+	Ordinal0 [0x00E0A94B+174411]
+	Ordinal0 [0x00DF2528+75048]
+	Ordinal0 [0x00DF35A0+79264]
+	Ordinal0 [0x00DF3539+79161]
+	Ordinal0 [0x00F8D607+1758727]
+	GetHandleVerifier [0x01196546+1050150]
+	GetHandleVerifier [0x01196291+1049457]
+	GetHandleVerifier [0x011A10D7+1094071]
+	GetHandleVerifier [0x01196B46+1051686]
+	Ordinal0 [0x00F85B06+1727238]
+	Ordinal0 [0x00F8EB7B+1764219]
+	Ordinal0 [0x00F8ECE3+1764579]
+	Ordinal0 [0x00FA4C05+1854469]
+	BaseThreadInitThunk [0x76A03677+18]
+	RtlInitializeExceptionChain [0x770B9D72+99]
+	RtlInitializeExceptionChain [0x770B9D45+54]
+
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:73) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:56) [classes/:?]
+10:10:04  [ERROR] : 创建driver失败！！
+10:10:04  [INFO ] : chrome浏览器启动
+10:10:04  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:59) [classes/:?]
+10:10:04  [ERROR] : 创建driver失败！！
+10:10:04  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:71) [classes/:?]
+10:10:04  [ERROR] : 创建driver失败！！
+10:10:04  [INFO ] : ------当前的sheet页是商城后台系统用例-----------------
+10:10:15  [ERROR] : org.openqa.selenium.InvalidArgumentException: invalid argument: user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01079563+2725219]
+	Ordinal0 [0x00F78551+1672529]
+	Ordinal0 [0x00E60359+525145]
+	Ordinal0 [0x00DED8A8+55464]
+	Ordinal0 [0x00E0CC37+183351]
+	Ordinal0 [0x00E0CA3D+182845]
+	Ordinal0 [0x00E0A94B+174411]
+	Ordinal0 [0x00DF2528+75048]
+	Ordinal0 [0x00DF35A0+79264]
+	Ordinal0 [0x00DF3539+79161]
+	Ordinal0 [0x00F8D607+1758727]
+	GetHandleVerifier [0x01196546+1050150]
+	GetHandleVerifier [0x01196291+1049457]
+	GetHandleVerifier [0x011A10D7+1094071]
+	GetHandleVerifier [0x01196B46+1051686]
+	Ordinal0 [0x00F85B06+1727238]
+	Ordinal0 [0x00F8EB7B+1764219]
+	Ordinal0 [0x00F8ECE3+1764579]
+	Ordinal0 [0x00FA4C05+1854469]
+	BaseThreadInitThunk [0x76A03677+18]
+	RtlInitializeExceptionChain [0x770B9D72+99]
+	RtlInitializeExceptionChain [0x770B9D45+54]
+
+org.openqa.selenium.InvalidArgumentException: invalid argument: user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01079563+2725219]
+	Ordinal0 [0x00F78551+1672529]
+	Ordinal0 [0x00E60359+525145]
+	Ordinal0 [0x00DED8A8+55464]
+	Ordinal0 [0x00E0CC37+183351]
+	Ordinal0 [0x00E0CA3D+182845]
+	Ordinal0 [0x00E0A94B+174411]
+	Ordinal0 [0x00DF2528+75048]
+	Ordinal0 [0x00DF35A0+79264]
+	Ordinal0 [0x00DF3539+79161]
+	Ordinal0 [0x00F8D607+1758727]
+	GetHandleVerifier [0x01196546+1050150]
+	GetHandleVerifier [0x01196291+1049457]
+	GetHandleVerifier [0x011A10D7+1094071]
+	GetHandleVerifier [0x01196B46+1051686]
+	Ordinal0 [0x00F85B06+1727238]
+	Ordinal0 [0x00F8EB7B+1764219]
+	Ordinal0 [0x00F8ECE3+1764579]
+	Ordinal0 [0x00FA4C05+1854469]
+	BaseThreadInitThunk [0x76A03677+18]
+	RtlInitializeExceptionChain [0x770B9D72+99]
+	RtlInitializeExceptionChain [0x770B9D45+54]
+
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:73) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:56) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [INFO ] : chrome浏览器启动
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:59) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:62) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:62) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:62) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:68) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:68) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:74) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:68) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:62) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:77) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:80) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:65) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:80) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:65) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:80) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:62) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:62) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:68) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:15  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:68) [classes/:?]
+10:10:15  [ERROR] : 创建driver失败！！
+10:10:16  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:71) [classes/:?]
+10:10:16  [ERROR] : 创建driver失败！！
+10:10:16  [INFO ] : ------当前的sheet页是商城前台系统用例-----------------
+10:10:24  [ERROR] : org.openqa.selenium.InvalidArgumentException: invalid argument: user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01079563+2725219]
+	Ordinal0 [0x00F78551+1672529]
+	Ordinal0 [0x00E60359+525145]
+	Ordinal0 [0x00DED8A8+55464]
+	Ordinal0 [0x00E0CC37+183351]
+	Ordinal0 [0x00E0CA3D+182845]
+	Ordinal0 [0x00E0A94B+174411]
+	Ordinal0 [0x00DF2528+75048]
+	Ordinal0 [0x00DF35A0+79264]
+	Ordinal0 [0x00DF3539+79161]
+	Ordinal0 [0x00F8D607+1758727]
+	GetHandleVerifier [0x01196546+1050150]
+	GetHandleVerifier [0x01196291+1049457]
+	GetHandleVerifier [0x011A10D7+1094071]
+	GetHandleVerifier [0x01196B46+1051686]
+	Ordinal0 [0x00F85B06+1727238]
+	Ordinal0 [0x00F8EB7B+1764219]
+	Ordinal0 [0x00F8ECE3+1764579]
+	Ordinal0 [0x00FA4C05+1854469]
+	BaseThreadInitThunk [0x76A03677+18]
+	RtlInitializeExceptionChain [0x770B9D72+99]
+	RtlInitializeExceptionChain [0x770B9D45+54]
+
+org.openqa.selenium.InvalidArgumentException: invalid argument: user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01079563+2725219]
+	Ordinal0 [0x00F78551+1672529]
+	Ordinal0 [0x00E60359+525145]
+	Ordinal0 [0x00DED8A8+55464]
+	Ordinal0 [0x00E0CC37+183351]
+	Ordinal0 [0x00E0CA3D+182845]
+	Ordinal0 [0x00E0A94B+174411]
+	Ordinal0 [0x00DF2528+75048]
+	Ordinal0 [0x00DF35A0+79264]
+	Ordinal0 [0x00DF3539+79161]
+	Ordinal0 [0x00F8D607+1758727]
+	GetHandleVerifier [0x01196546+1050150]
+	GetHandleVerifier [0x01196291+1049457]
+	GetHandleVerifier [0x011A10D7+1094071]
+	GetHandleVerifier [0x01196B46+1051686]
+	Ordinal0 [0x00F85B06+1727238]
+	Ordinal0 [0x00F8EB7B+1764219]
+	Ordinal0 [0x00F8ECE3+1764579]
+	Ordinal0 [0x00FA4C05+1854469]
+	BaseThreadInitThunk [0x76A03677+18]
+	RtlInitializeExceptionChain [0x770B9D72+99]
+	RtlInitializeExceptionChain [0x770B9D45+54]
+
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:73) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:56) [classes/:?]
+10:10:24  [ERROR] : 创建driver失败！！
+10:10:24  [INFO ] : chrome浏览器启动
+10:10:24  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:59) [classes/:?]
+10:10:24  [ERROR] : 创建driver失败！！
+10:10:24  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:62) [classes/:?]
+10:10:24  [ERROR] : 创建driver失败！！
+10:10:24  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:62) [classes/:?]
+10:10:24  [ERROR] : 创建driver失败！！
+10:10:24  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:62) [classes/:?]
+10:10:24  [ERROR] : 创建driver失败！！
+10:10:24  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:68) [classes/:?]
+10:10:24  [ERROR] : 创建driver失败！！
+10:10:24  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:59) [classes/:?]
+10:10:24  [ERROR] : 创建driver失败！！
+10:10:24  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:62) [classes/:?]
+10:10:24  [ERROR] : 创建driver失败！！
+10:10:24  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:68) [classes/:?]
+10:10:24  [ERROR] : 创建driver失败！！
+10:10:24  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:68) [classes/:?]
+10:10:24  [ERROR] : 创建driver失败！！
+10:10:24  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:68) [classes/:?]
+10:10:24  [ERROR] : 创建driver失败！！
+10:10:24  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:71) [classes/:?]
+10:10:24  [ERROR] : 创建driver失败！！

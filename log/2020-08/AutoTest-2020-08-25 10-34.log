@@ -1,0 +1,240 @@
+10:34:12  [INFO ] : ------当前的sheet页是测试用例-----------------
+10:34:37  [ERROR] : org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0101A113+1548563]
+	Ordinal0 [0x00F9DDA1+1039777]
+	Ordinal0 [0x00F1E485+517253]
+	Ordinal0 [0x00EAFD34+64820]
+	Ordinal0 [0x00EAC61E+50718]
+	Ordinal0 [0x00ECB797+178071]
+	Ordinal0 [0x00ECB59D+177565]
+	Ordinal0 [0x00EC95FB+169467]
+	Ordinal0 [0x00EB160A+71178]
+	Ordinal0 [0x00EB2690+75408]
+	Ordinal0 [0x00EB2629+75305]
+	Ordinal0 [0x00FB71B7+1143223]
+	GetHandleVerifier [0x010B2B46+507814]
+	GetHandleVerifier [0x010B2864+507076]
+	GetHandleVerifier [0x010B9F47+537511]
+	GetHandleVerifier [0x010B3402+510050]
+	Ordinal0 [0x00FAF29C+1110684]
+	Ordinal0 [0x00FB938B+1151883]
+	Ordinal0 [0x00FB94F3+1152243]
+	Ordinal0 [0x00FB83F5+1147893]
+	BaseThreadInitThunk [0x76A03677+18]
+	RtlInitializeExceptionChain [0x770B9D72+99]
+	RtlInitializeExceptionChain [0x770B9D45+54]
+
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0101A113+1548563]
+	Ordinal0 [0x00F9DDA1+1039777]
+	Ordinal0 [0x00F1E485+517253]
+	Ordinal0 [0x00EAFD34+64820]
+	Ordinal0 [0x00EAC61E+50718]
+	Ordinal0 [0x00ECB797+178071]
+	Ordinal0 [0x00ECB59D+177565]
+	Ordinal0 [0x00EC95FB+169467]
+	Ordinal0 [0x00EB160A+71178]
+	Ordinal0 [0x00EB2690+75408]
+	Ordinal0 [0x00EB2629+75305]
+	Ordinal0 [0x00FB71B7+1143223]
+	GetHandleVerifier [0x010B2B46+507814]
+	GetHandleVerifier [0x010B2864+507076]
+	GetHandleVerifier [0x010B9F47+537511]
+	GetHandleVerifier [0x010B3402+510050]
+	Ordinal0 [0x00FAF29C+1110684]
+	Ordinal0 [0x00FB938B+1151883]
+	Ordinal0 [0x00FB94F3+1152243]
+	Ordinal0 [0x00FB83F5+1147893]
+	BaseThreadInitThunk [0x76A03677+18]
+	RtlInitializeExceptionChain [0x770B9D72+99]
+	RtlInitializeExceptionChain [0x770B9D45+54]
+
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:73) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:56) [classes/:?]
+10:34:37  [ERROR] : 创建driver失败！！
+10:34:37  [INFO ] : chrome浏览器启动
+10:34:39  [ERROR] : org.openqa.selenium.SessionNotCreatedException: No matching capability sets found.
+Unable to match capability set 0: browserName must be 'internet explorer', but was 'chrome'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: 
+org.openqa.selenium.SessionNotCreatedException: No matching capability sets found.
+Unable to match capability set 0: browserName must be 'internet explorer', but was 'chrome'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: 
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:59) [classes/:?]
+10:34:39  [ERROR] : 创建driver失败！！
+10:34:40  [ERROR] : org.openqa.selenium.SessionNotCreatedException: No matching capability sets found.
+Unable to match capability set 0: browserName must be 'internet explorer', but was 'chrome'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: 
+org.openqa.selenium.SessionNotCreatedException: No matching capability sets found.
+Unable to match capability set 0: browserName must be 'internet explorer', but was 'chrome'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: 
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:62) [classes/:?]
+10:34:40  [ERROR] : 创建driver失败！！
+10:34:41  [ERROR] : org.openqa.selenium.SessionNotCreatedException: No matching capability sets found.
+Unable to match capability set 0: browserName must be 'internet explorer', but was 'chrome'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: 
+org.openqa.selenium.SessionNotCreatedException: No matching capability sets found.
+Unable to match capability set 0: browserName must be 'internet explorer', but was 'chrome'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: 
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:65) [classes/:?]
+10:34:41  [ERROR] : 创建driver失败！！
+10:34:42  [ERROR] : org.openqa.selenium.SessionNotCreatedException: No matching capability sets found.
+Unable to match capability set 0: browserName must be 'internet explorer', but was 'chrome'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: 
+org.openqa.selenium.SessionNotCreatedException: No matching capability sets found.
+Unable to match capability set 0: browserName must be 'internet explorer', but was 'chrome'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: 
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:68) [classes/:?]
+10:34:42  [ERROR] : 创建driver失败！！
+10:34:42  [ERROR] : org.openqa.selenium.SessionNotCreatedException: No matching capability sets found.
+Unable to match capability set 0: browserName must be 'internet explorer', but was 'chrome'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: 
+org.openqa.selenium.SessionNotCreatedException: No matching capability sets found.
+Unable to match capability set 0: browserName must be 'internet explorer', but was 'chrome'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: 
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:71) [classes/:?]
+10:34:42  [ERROR] : 创建driver失败！！
+10:34:47  [ERROR] : org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0101A113+1548563]
+	Ordinal0 [0x00F9DDA1+1039777]
+	Ordinal0 [0x00F1E485+517253]
+	Ordinal0 [0x00EAFD34+64820]
+	Ordinal0 [0x00EAC61E+50718]
+	Ordinal0 [0x00ECB797+178071]
+	Ordinal0 [0x00ECB59D+177565]
+	Ordinal0 [0x00EC95FB+169467]
+	Ordinal0 [0x00EB160A+71178]
+	Ordinal0 [0x00EB2690+75408]
+	Ordinal0 [0x00EB2629+75305]
+	Ordinal0 [0x00FB71B7+1143223]
+	GetHandleVerifier [0x010B2B46+507814]
+	GetHandleVerifier [0x010B2864+507076]
+	GetHandleVerifier [0x010B9F47+537511]
+	GetHandleVerifier [0x010B3402+510050]
+	Ordinal0 [0x00FAF29C+1110684]
+	Ordinal0 [0x00FB938B+1151883]
+	Ordinal0 [0x00FB94F3+1152243]
+	Ordinal0 [0x00FB83F5+1147893]
+	BaseThreadInitThunk [0x76A03677+18]
+	RtlInitializeExceptionChain [0x770B9D72+99]
+	RtlInitializeExceptionChain [0x770B9D45+54]
+
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0101A113+1548563]
+	Ordinal0 [0x00F9DDA1+1039777]
+	Ordinal0 [0x00F1E485+517253]
+	Ordinal0 [0x00EAFD34+64820]
+	Ordinal0 [0x00EAC61E+50718]
+	Ordinal0 [0x00ECB797+178071]
+	Ordinal0 [0x00ECB59D+177565]
+	Ordinal0 [0x00EC95FB+169467]
+	Ordinal0 [0x00EB160A+71178]
+	Ordinal0 [0x00EB2690+75408]
+	Ordinal0 [0x00EB2629+75305]
+	Ordinal0 [0x00FB71B7+1143223]
+	GetHandleVerifier [0x010B2B46+507814]
+	GetHandleVerifier [0x010B2864+507076]
+	GetHandleVerifier [0x010B9F47+537511]
+	GetHandleVerifier [0x010B3402+510050]
+	Ordinal0 [0x00FAF29C+1110684]
+	Ordinal0 [0x00FB938B+1151883]
+	Ordinal0 [0x00FB94F3+1152243]
+	Ordinal0 [0x00FB83F5+1147893]
+	BaseThreadInitThunk [0x76A03677+18]
+	RtlInitializeExceptionChain [0x770B9D72+99]
+	RtlInitializeExceptionChain [0x770B9D45+54]
+
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:73) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:56) [classes/:?]
+10:34:47  [ERROR] : 创建driver失败！！
+10:34:47  [INFO ] : chrome浏览器启动
+10:34:49  [ERROR] : org.openqa.selenium.SessionNotCreatedException: No matching capability sets found.
+Unable to match capability set 0: browserName must be 'internet explorer', but was 'chrome'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: 
+org.openqa.selenium.SessionNotCreatedException: No matching capability sets found.
+Unable to match capability set 0: browserName must be 'internet explorer', but was 'chrome'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: 
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:59) [classes/:?]
+10:34:49  [ERROR] : 创建driver失败！！
+10:34:49  [ERROR] : org.openqa.selenium.SessionNotCreatedException: No matching capability sets found.
+Unable to match capability set 0: browserName must be 'internet explorer', but was 'chrome'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: 
+org.openqa.selenium.SessionNotCreatedException: No matching capability sets found.
+Unable to match capability set 0: browserName must be 'internet explorer', but was 'chrome'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: 
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:71) [classes/:?]
+10:34:49  [ERROR] : 创建driver失败！！
+10:34:49  [INFO ] : ------当前的sheet页是商城后台系统用例-----------------

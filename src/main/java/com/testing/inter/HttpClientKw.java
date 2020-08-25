@@ -264,7 +264,7 @@ public class HttpClientKw {
 	}
 	
 	/**
-	 * 通过httpclient实现的以x-www-form-urlencoded格式传参的post方法
+	 * 通过httpclient实现的以text/xml格式传参的post方法,用于SOAP（Web Service）接口
 	 * 
 	 * @param url   接口的url地址
 	 * @param param 接口的参数列表。

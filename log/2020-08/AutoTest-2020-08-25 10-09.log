@@ -1,0 +1,32 @@
+10:09:26  [INFO ] : ------当前的sheet页是测试用例-----------------
+10:09:54  [INFO ] : chrome浏览器启动
+10:09:54  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:59) [classes/:?]
+10:09:54  [ERROR] : 创建driver失败！！
+10:09:54  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:62) [classes/:?]
+10:09:54  [ERROR] : 创建driver失败！！
+10:09:55  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:65) [classes/:?]
+10:09:55  [ERROR] : 创建driver失败！！
+10:09:55  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:68) [classes/:?]
+10:09:55  [ERROR] : 创建driver失败！！
+10:09:55  [ERROR] : java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+java.lang.IllegalStateException: The driver executable does not exist: E:\eclipse-workspace\VIP05Auto\webDrivers\IEDriver.exe
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:71) [classes/:?]
+10:09:55  [ERROR] : 创建driver失败！！

@@ -1,0 +1,8 @@
+09:48:12  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"9d6a546f7dc14f21b1d937d6d927f62d"}
+09:48:12  [INFO ] : 在keyword中调试输出返回的结果是{"status":406,"msg":"用户已经在别处登录"}
+09:48:12  [ERROR] : 保存参数失败
+09:48:12  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.testing.inter.KeywordOfInter.saveParam(KeywordOfInter.java:118) [classes/:?]
+	at com.chen.class13.SoapTest.main(SoapTest.java:30) [classes/:?]
+09:48:12  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"您还未登录"}

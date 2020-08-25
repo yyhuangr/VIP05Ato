@@ -1,0 +1,16 @@
+10:48:00  [ERROR] : org.openqa.selenium.SessionNotCreatedException: No matching capability sets found.
+Unable to match capability set 0: browserName must be 'internet explorer', but was 'chrome'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: 
+org.openqa.selenium.SessionNotCreatedException: No matching capability sets found.
+Unable to match capability set 0: browserName must be 'internet explorer', but was 'chrome'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: 
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:86) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:71) [classes/:?]
+10:48:00  [ERROR] : 创建driver失败！！

@@ -1,0 +1,1 @@
+17:30:55  [INFO ] : 在keyword中调试输出返回的结果是<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:authResponse xmlns:ns2="http://soap.testingedu.com/"><return>{"status":200,"msg":"success","token":"4780ac9691184613b61d43d35d3fe3a3"}</return></ns2:authResponse></S:Body></S:Envelope>

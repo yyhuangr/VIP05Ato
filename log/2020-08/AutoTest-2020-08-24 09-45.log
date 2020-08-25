@@ -1,0 +1,14 @@
+09:45:18  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"c9ae7f0dd3a641cabeea9ddb8779b29f"}
+09:45:19  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1510"}
+09:45:19  [INFO ] : I/O exception (org.apache.http.conn.UnsupportedSchemeException) caught when processing request to {}->ttp://www.testingedu.com.cn:8081: ttp protocol is not supported
+09:45:19  [INFO ] : Retrying request to {}->ttp://www.testingedu.com.cn:8081
+09:45:19  [INFO ] : I/O exception (org.apache.http.conn.UnsupportedSchemeException) caught when processing request to {}->ttp://www.testingedu.com.cn:8081: ttp protocol is not supported
+09:45:19  [INFO ] : Retrying request to {}->ttp://www.testingedu.com.cn:8081
+09:45:19  [INFO ] : I/O exception (org.apache.http.conn.UnsupportedSchemeException) caught when processing request to {}->ttp://www.testingedu.com.cn:8081: ttp protocol is not supported
+09:45:19  [INFO ] : Retrying request to {}->ttp://www.testingedu.com.cn:8081
+09:45:19  [ERROR] : org.apache.http.conn.UnsupportedSchemeException: ttp protocol is not supported
+org.apache.http.conn.UnsupportedSchemeException: ttp protocol is not supported
+	at com.testing.inter.HttpClientKw.doxmlPost(HttpClientKw.java:313) [classes/:?]
+	at com.testing.inter.KeywordOfInter.testxmlPost(KeywordOfInter.java:50) [classes/:?]
+	at com.chen.class13.SoapTest.main(SoapTest.java:33) [classes/:?]
+09:45:19  [INFO ] : 在keyword中调试输出返回的结果是org.apache.http.conn.UnsupportedSchemeException: ttp protocol is not supported

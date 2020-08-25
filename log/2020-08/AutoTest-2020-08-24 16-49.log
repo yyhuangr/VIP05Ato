@@ -1,0 +1,97 @@
+16:49:51  [INFO ] : ------当前的sheet页是测试用例-----------------
+16:49:57  [ERROR] : org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0147A113+1548563]
+	Ordinal0 [0x013FDDA1+1039777]
+	Ordinal0 [0x0137E485+517253]
+	Ordinal0 [0x0130FD34+64820]
+	Ordinal0 [0x0130C61E+50718]
+	Ordinal0 [0x0132B797+178071]
+	Ordinal0 [0x0132B59D+177565]
+	Ordinal0 [0x013295FB+169467]
+	Ordinal0 [0x0131160A+71178]
+	Ordinal0 [0x01312690+75408]
+	Ordinal0 [0x01312629+75305]
+	Ordinal0 [0x014171B7+1143223]
+	GetHandleVerifier [0x01512B46+507814]
+	GetHandleVerifier [0x01512864+507076]
+	GetHandleVerifier [0x01519F47+537511]
+	GetHandleVerifier [0x01513402+510050]
+	Ordinal0 [0x0140F29C+1110684]
+	Ordinal0 [0x0141938B+1151883]
+	Ordinal0 [0x014194F3+1152243]
+	Ordinal0 [0x014183F5+1147893]
+	BaseThreadInitThunk [0x76813677+18]
+	RtlInitializeExceptionChain [0x77309D72+99]
+	RtlInitializeExceptionChain [0x77309D45+54]
+
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-JI76PNNRJ6Q', ip: '192.168.18.133', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: GoogleDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0147A113+1548563]
+	Ordinal0 [0x013FDDA1+1039777]
+	Ordinal0 [0x0137E485+517253]
+	Ordinal0 [0x0130FD34+64820]
+	Ordinal0 [0x0130C61E+50718]
+	Ordinal0 [0x0132B797+178071]
+	Ordinal0 [0x0132B59D+177565]
+	Ordinal0 [0x013295FB+169467]
+	Ordinal0 [0x0131160A+71178]
+	Ordinal0 [0x01312690+75408]
+	Ordinal0 [0x01312629+75305]
+	Ordinal0 [0x014171B7+1143223]
+	GetHandleVerifier [0x01512B46+507814]
+	GetHandleVerifier [0x01512864+507076]
+	GetHandleVerifier [0x01519F47+537511]
+	GetHandleVerifier [0x01513402+510050]
+	Ordinal0 [0x0140F29C+1110684]
+	Ordinal0 [0x0141938B+1151883]
+	Ordinal0 [0x014194F3+1152243]
+	Ordinal0 [0x014183F5+1147893]
+	BaseThreadInitThunk [0x76813677+18]
+	RtlInitializeExceptionChain [0x77309D72+99]
+	RtlInitializeExceptionChain [0x77309D45+54]
+
+	at com.testing.driverself.GoogleDriver.<init>(GoogleDriver.java:44) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.openBrowser(DataDrivenOfWeb.java:73) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:82) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+16:49:57  [ERROR] : 创建driver失败！！
+16:49:57  [INFO ] : chrome浏览器启动
+16:49:57  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.testing.webKeyword.DataDrivenOfWeb.visitWeb(DataDrivenOfWeb.java:125) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:82) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+16:49:57  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.testing.webKeyword.DataDrivenOfWeb.explicitlyWait(DataDrivenOfWeb.java:195) [classes/:?]
+	at com.testing.webKeyword.DataDrivenOfWeb.input(DataDrivenOfWeb.java:136) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:90) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]
+16:49:57  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.testing.webKeyword.DataDrivenOfWeb.input(DataDrivenOfWeb.java:142) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at com.chen.class14.DDToOfWeb.invokeWebkey(DDToOfWeb.java:90) [classes/:?]
+	at com.chen.class14.DDToOfWeb.main(DDToOfWeb.java:46) [classes/:?]

@@ -39,7 +39,8 @@ public class GoogleDriver { // Chrome浏览器驱动类
 		option.addArguments("log-level=3");
 
 		try { // 创建一个 Chrome 的浏览器实例
-			this.driver = new ChromeDriver(option);
+//			this.driver = new ChromeDriver(option);
+			this.driver = new ChromeDriver();
 		} catch (Exception e) {
 			AutoLogger.log.error(e,e.fillInStackTrace());
 			AutoLogger.log.error("创建driver失败！！");

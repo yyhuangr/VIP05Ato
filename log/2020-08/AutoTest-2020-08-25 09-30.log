@@ -1,0 +1,5 @@
+09:30:14  [INFO ] : 访问http://testingedu.com.cn:8000/index.php/Admin/Admin/login
+09:30:18  [INFO ] : 进入iframe成功！
+09:30:26  [INFO ] : ------当前的sheet页是商城前台系统用例-----------------
+09:30:30  [INFO ] : chrome浏览器启动
+09:30:52  [INFO ] : 访问http://www.testingedu.com.cn:8000/Home/user/login.html

@@ -1,0 +1,120 @@
+14:40:02  [WARN ] : Unable to instantiate deployer org.apache.axis2.deployment.ServiceDeployer; see debug logs for more details
+14:40:02  [INFO ] : 基于wsdl文档地址建立连接
+14:40:03  [INFO ] : Unable to sendViaPost to url[http://www.testingedu.com.cn/inter/SOAP?wsdl]
+org.apache.axis2.AxisFault: Transport error: 404 Error: Not Found
+	at org.apache.axis2.transport.http.impl.httpclient3.HTTPSenderImpl.handleResponse(HTTPSenderImpl.java:343) ~[axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.transport.http.impl.httpclient3.HTTPSenderImpl.sendViaPost(HTTPSenderImpl.java:213) [axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.transport.http.HTTPSender.send(HTTPSender.java:121) [axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.writeMessageWithCommons(CommonsHTTPTransportSender.java:403) [axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.invoke(CommonsHTTPTransportSender.java:234) [axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:431) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:399) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:225) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:150) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.client.ServiceClient.sendReceive(ServiceClient.java:533) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.client.ServiceClient.sendReceive(ServiceClient.java:509) [axis2-kernel-1.7.9.jar:1.7.9]
+	at com.testing.inter.Axis2Kw.doSoap(Axis2Kw.java:114) [classes/:?]
+	at com.testing.inter.DataDrivenOfSoap.testSoap(DataDrivenOfSoap.java:58) [classes/:?]
+	at com.testing.class14.DDTofSoap.main(DDTofSoap.java:46) [classes/:?]
+14:40:03  [ERROR] : SOAP请求发送失败，请检查！
+14:40:03  [ERROR] : org.apache.axis2.AxisFault: Transport error: 404 Error: Not Found
+org.apache.axis2.AxisFault: Transport error: 404 Error: Not Found
+	at com.testing.inter.Axis2Kw.doSoap(Axis2Kw.java:121) [classes/:?]
+	at com.testing.inter.DataDrivenOfSoap.testSoap(DataDrivenOfSoap.java:58) [classes/:?]
+	at com.testing.class14.DDTofSoap.main(DDTofSoap.java:46) [classes/:?]
+14:40:03  [ERROR] : 解析失败，请检查jsonPath表达式
+14:40:03  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.testing.inter.DataDrivenOfSoap.assertSame(DataDrivenOfSoap.java:135) [classes/:?]
+	at com.testing.class14.DDTofSoap.main(DDTofSoap.java:58) [classes/:?]
+14:40:03  [ERROR] : 保存参数失败
+14:40:03  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.testing.inter.DataDrivenOfSoap.saveParam(DataDrivenOfSoap.java:109) [classes/:?]
+	at com.testing.class14.DDTofSoap.main(DDTofSoap.java:52) [classes/:?]
+14:40:03  [INFO ] : Unable to sendViaPost to url[http://www.testingedu.com.cn/inter/SOAP?wsdl]
+org.apache.axis2.AxisFault: Transport error: 404 Error: Not Found
+	at org.apache.axis2.transport.http.impl.httpclient3.HTTPSenderImpl.handleResponse(HTTPSenderImpl.java:343) ~[axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.transport.http.impl.httpclient3.HTTPSenderImpl.sendViaPost(HTTPSenderImpl.java:213) [axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.transport.http.HTTPSender.send(HTTPSender.java:121) [axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.writeMessageWithCommons(CommonsHTTPTransportSender.java:403) [axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.invoke(CommonsHTTPTransportSender.java:234) [axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:431) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:399) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:225) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:150) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.client.ServiceClient.sendReceive(ServiceClient.java:533) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.client.ServiceClient.sendReceive(ServiceClient.java:509) [axis2-kernel-1.7.9.jar:1.7.9]
+	at com.testing.inter.Axis2Kw.doSoap(Axis2Kw.java:114) [classes/:?]
+	at com.testing.inter.DataDrivenOfSoap.testSoap(DataDrivenOfSoap.java:58) [classes/:?]
+	at com.testing.class14.DDTofSoap.main(DDTofSoap.java:46) [classes/:?]
+14:40:03  [ERROR] : SOAP请求发送失败，请检查！
+14:40:03  [ERROR] : org.apache.axis2.AxisFault: Transport error: 404 Error: Not Found
+org.apache.axis2.AxisFault: Transport error: 404 Error: Not Found
+	at com.testing.inter.Axis2Kw.doSoap(Axis2Kw.java:121) [classes/:?]
+	at com.testing.inter.DataDrivenOfSoap.testSoap(DataDrivenOfSoap.java:58) [classes/:?]
+	at com.testing.class14.DDTofSoap.main(DDTofSoap.java:46) [classes/:?]
+14:40:03  [ERROR] : 解析失败，请检查jsonPath表达式
+14:40:03  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.testing.inter.DataDrivenOfSoap.assertSame(DataDrivenOfSoap.java:135) [classes/:?]
+	at com.testing.class14.DDTofSoap.main(DDTofSoap.java:58) [classes/:?]
+14:40:03  [ERROR] : 保存参数失败
+14:40:03  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.testing.inter.DataDrivenOfSoap.saveParam(DataDrivenOfSoap.java:109) [classes/:?]
+	at com.testing.class14.DDTofSoap.main(DDTofSoap.java:52) [classes/:?]
+14:40:03  [INFO ] : Unable to sendViaPost to url[http://www.testingedu.com.cn/inter/SOAP?wsdl]
+org.apache.axis2.AxisFault: Transport error: 404 Error: Not Found
+	at org.apache.axis2.transport.http.impl.httpclient3.HTTPSenderImpl.handleResponse(HTTPSenderImpl.java:343) ~[axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.transport.http.impl.httpclient3.HTTPSenderImpl.sendViaPost(HTTPSenderImpl.java:213) [axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.transport.http.HTTPSender.send(HTTPSender.java:121) [axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.writeMessageWithCommons(CommonsHTTPTransportSender.java:403) [axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.invoke(CommonsHTTPTransportSender.java:234) [axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:431) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:399) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:225) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:150) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.client.ServiceClient.sendReceive(ServiceClient.java:533) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.client.ServiceClient.sendReceive(ServiceClient.java:509) [axis2-kernel-1.7.9.jar:1.7.9]
+	at com.testing.inter.Axis2Kw.doSoap(Axis2Kw.java:114) [classes/:?]
+	at com.testing.inter.DataDrivenOfSoap.testSoap(DataDrivenOfSoap.java:58) [classes/:?]
+	at com.testing.class14.DDTofSoap.main(DDTofSoap.java:46) [classes/:?]
+14:40:03  [ERROR] : SOAP请求发送失败，请检查！
+14:40:03  [ERROR] : org.apache.axis2.AxisFault: Transport error: 404 Error: Not Found
+org.apache.axis2.AxisFault: Transport error: 404 Error: Not Found
+	at com.testing.inter.Axis2Kw.doSoap(Axis2Kw.java:121) [classes/:?]
+	at com.testing.inter.DataDrivenOfSoap.testSoap(DataDrivenOfSoap.java:58) [classes/:?]
+	at com.testing.class14.DDTofSoap.main(DDTofSoap.java:46) [classes/:?]
+14:40:03  [ERROR] : 解析失败，请检查jsonPath表达式
+14:40:03  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.testing.inter.DataDrivenOfSoap.assertSame(DataDrivenOfSoap.java:135) [classes/:?]
+	at com.testing.class14.DDTofSoap.main(DDTofSoap.java:58) [classes/:?]
+14:40:03  [INFO ] : Unable to sendViaPost to url[http://www.testingedu.com.cn/inter/SOAP?wsdl]
+org.apache.axis2.AxisFault: Transport error: 404 Error: Not Found
+	at org.apache.axis2.transport.http.impl.httpclient3.HTTPSenderImpl.handleResponse(HTTPSenderImpl.java:343) ~[axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.transport.http.impl.httpclient3.HTTPSenderImpl.sendViaPost(HTTPSenderImpl.java:213) [axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.transport.http.HTTPSender.send(HTTPSender.java:121) [axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.writeMessageWithCommons(CommonsHTTPTransportSender.java:403) [axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.invoke(CommonsHTTPTransportSender.java:234) [axis2-transport-http-1.7.9.jar:1.7.9]
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:431) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:399) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:225) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:150) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.client.ServiceClient.sendReceive(ServiceClient.java:533) [axis2-kernel-1.7.9.jar:1.7.9]
+	at org.apache.axis2.client.ServiceClient.sendReceive(ServiceClient.java:509) [axis2-kernel-1.7.9.jar:1.7.9]
+	at com.testing.inter.Axis2Kw.doSoap(Axis2Kw.java:114) [classes/:?]
+	at com.testing.inter.DataDrivenOfSoap.testSoap(DataDrivenOfSoap.java:58) [classes/:?]
+	at com.testing.class14.DDTofSoap.main(DDTofSoap.java:46) [classes/:?]
+14:40:03  [ERROR] : SOAP请求发送失败，请检查！
+14:40:03  [ERROR] : org.apache.axis2.AxisFault: Transport error: 404 Error: Not Found
+org.apache.axis2.AxisFault: Transport error: 404 Error: Not Found
+	at com.testing.inter.Axis2Kw.doSoap(Axis2Kw.java:121) [classes/:?]
+	at com.testing.inter.DataDrivenOfSoap.testSoap(DataDrivenOfSoap.java:58) [classes/:?]
+	at com.testing.class14.DDTofSoap.main(DDTofSoap.java:46) [classes/:?]
+14:40:03  [ERROR] : 解析失败，请检查jsonPath表达式
+14:40:03  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.testing.inter.DataDrivenOfSoap.assertSame(DataDrivenOfSoap.java:135) [classes/:?]
+	at com.testing.class14.DDTofSoap.main(DDTofSoap.java:58) [classes/:?]

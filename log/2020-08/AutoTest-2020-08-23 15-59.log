@@ -1,0 +1,6 @@
+15:59:34  [INFO ] : 在keywordOfinter类中输出返回的结果是{"status":200,"msg":"success","token":"d2ada13c4ec640b49ce7bfffa5294fab"}
+15:59:35  [INFO ] : {"status":401,"msg":"用户已被注册"}
+15:59:35  [INFO ] : registerResult={"status":401,"msg":"用户已被注册"}
+15:59:35  [INFO ] : 在keywordOfinter类中输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1510"}
+15:59:35  [INFO ] : 在keywordOfinter类中输出返回的结果是{"status":200,"msg":"查询成功","nickname":"chen321","id":"1510","describe":"test"}
+15:59:35  [INFO ] : 在keywordOfinter类中输出返回的结果是{"status":200,"msg":"用户已退出登录"}
